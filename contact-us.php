@@ -57,8 +57,8 @@ VERSION: 1.3
 				</div>
 				<ul class="nav">
          <li><a href="index.html">Control Characters</a></li>
-         <li><a href="ascii_printable_characters.html">Printable Characters</a></li>
-         <li><a href="extended_ascii_characters.html">Extended Characters</a></li>
+         <li><a href="ascii-printable-characters.html">Printable Characters</a></li>
+         <li><a href="extended-ascii-characters.html">Extended Characters</a></li>
        </ul>
        <span class="spacer">
          <br /><br /><br /><br /><br /><br /><br />
@@ -122,10 +122,10 @@ VERSION: 1.3
 				<a href="http://www.asciicode.ws" title="ASCII Code">www.asciicode.ws</a>
 			</p>
 			<p>
-        <a href="about_us.html" title="About Us">About Us</a> |
+        <a href="about-us.html" title="About Us">About Us</a> |
         <a class="current-page" title="Contact Us">Contact Us</a> |
-        <a href="privacy_policy.html" title="Privacy Policy">Privacy Policy</a> |
-        <a href="terms_of_service.html" title="Terms of Service">Terms of Service</a>
+        <a href="privacy-policy.html" title="Privacy Policy">Privacy Policy</a> |
+        <a href="terms-of-service.html" title="Terms of Service">Terms of Service</a>
       </p>
     </div>
     </footer>
