@@ -15,8 +15,8 @@ if(isset($_POST['submitted'])) {
 
 <!DOCTYPE html>
 <!--
-LAST UPDATE: 3 SEPT 2016
-VERSION: 1.2
+LAST UPDATE: 24 OCT 2019
+VERSION: 1.3
 -->
 
 <html lang="en">
@@ -115,17 +115,17 @@ VERSION: 1.2
     </div>
     <footer>
     <div>
-    <p id="date">&copy;
+      <p id="date">&copy;
 				<script>
 					document.getElementById("date").innerHTML = new Date().getFullYear();
 				</script>
 				<a href="http://www.asciicode.ws" title="ASCII Code">www.asciicode.ws</a>
 			</p>
 			<p>
-         <a href="about_us.html" title="About Us">About Us</a> |
-         <a class="current-page" title="Contact Us">Contact Us</a> |
-         <a href="privacy_policy.html" title="Privacy Policy">Privacy Policy</a> |
-         <a href="terms_of_service.html" title="Terms of Service">Terms of Service</a>
+        <a href="about_us.html" title="About Us">About Us</a> |
+        <a class="current-page" title="Contact Us">Contact Us</a> |
+        <a href="privacy_policy.html" title="Privacy Policy">Privacy Policy</a> |
+        <a href="terms_of_service.html" title="Terms of Service">Terms of Service</a>
       </p>
     </div>
     </footer>
