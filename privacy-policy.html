@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
-LAST UPDATE: 3 SEPT 2016
-VERSION: 1.2
+LAST UPDATE: 24 OCT 2019
+VERSION: 1.3
 -->
 
 <html lang="en">
@@ -226,13 +226,18 @@ VERSION: 1.2
      <br />
      California
      <br />
-     Last Edited on 2016-08-16
+     Last Edited on 2019-10-24
    </p>
    </div>
  <footer>
    <div>
-     <p>&copy; <script>new Date().getFullYear()>document.write(new Date().getFullYear());</script> <a href="http://www.asciicode.ws" title="ASCII Code">www.asciicode.ws</a></p>
-     <p>
+    <p id="date">&copy;
+      <script>
+        document.getElementById("date").innerHTML = new Date().getFullYear();
+      </script>
+      <a href="http://www.asciicode.ws" title="ASCII Code">www.asciicode.ws</a>
+    </p>
+    <p>
         <a href="about-us.html" title="About Us">About Us</a> |
         <a href="contact-us.php" title="Contact Us">Contact Us</a> |
         <a class="current-page" title="Privacy Policy">Privacy Policy</a> |
