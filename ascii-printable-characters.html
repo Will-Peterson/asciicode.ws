@@ -236,7 +236,12 @@ VERSION: 1.4
 			</div>
 			<br /><br />
 			<div>
-				<p>&copy; <script>new Date().getFullYear()>document.write(new Date().getFullYear());</script> <a href="http://www.asciicode.ws" title="ASCII Code">www.asciicode.ws</a></p>
+				<p id="date">&copy;
+					<script>
+						document.getElementById("date").innerHTML = new Date().getFullYear();
+					</script>
+					<a href="http://www.asciicode.ws" title="ASCII Code">www.asciicode.ws</a>
+				</p>
 				<p>
 					 <a href="about-us.html" title="About Us">About Us</a> |
 					 <a href="contact-us.php" title="Contact Us">Contact Us</a> |

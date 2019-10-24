@@ -64,11 +64,13 @@ VERSION: 1.2
     </div>
  <footer>
    <div>
-     <p>&copy;
-       <script>new Date().getFullYear()>document.write(new Date().getFullYear());
-       </script>
-       <a href="http://www.asciicode.ws" title="ASCII Code">www.asciicode.ws</a></p>
-       <p>
+    <p id="date">&copy;
+      <script>
+        document.getElementById("date").innerHTML = new Date().getFullYear();
+      </script>
+      <a href="http://www.asciicode.ws" title="ASCII Code">www.asciicode.ws</a>
+    </p>
+    <p>
  				 <a class="current-page" title="About Us">About Us</a> |
  				 <a href="contact-us.php" title="Contact Us">Contact Us</a> |
  				 <a href="privacy-policy.html" title="Privacy Policy">Privacy Policy</a> |

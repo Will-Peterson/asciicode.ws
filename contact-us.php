@@ -115,11 +115,13 @@ VERSION: 1.2
     </div>
     <footer>
     <div>
-     <p>&copy;
-       <script>new Date().getFullYear()>document.write(new Date().getFullYear());
-       </script>
-       <a href="http://www.asciicode.ws" title="ASCII Code">www.asciicode.ws</a></p>
-       <p>
+    <p id="date">&copy;
+				<script>
+					document.getElementById("date").innerHTML = new Date().getFullYear();
+				</script>
+				<a href="http://www.asciicode.ws" title="ASCII Code">www.asciicode.ws</a>
+			</p>
+			<p>
          <a href="about_us.html" title="About Us">About Us</a> |
          <a class="current-page" title="Contact Us">Contact Us</a> |
          <a href="privacy_policy.html" title="Privacy Policy">Privacy Policy</a> |
