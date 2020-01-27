@@ -1,3 +1,3 @@
-# asciicode.ws
+# [asciicode.ws](asciicode.ws)
 
-Simple website displaying ASCII codes.
+Information website displaying ASCII codes.
