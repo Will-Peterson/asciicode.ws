@@ -196,10 +196,6 @@ const Body = () => {
 				<tr><td>30</td><td>RS</td><td>&amp;#030;</td><td>&nbsp;</td><td>&nbsp;</td><td>Record Separator</td></tr>
 				<tr><td>31</td><td>US</td><td>&amp;#031;</td><td>&nbsp;</td><td>&nbsp;</td><td>Unit Separator</td></tr>
 				<tr><td>32</td><td>&nbsp;</td><td>&amp;#32;</td><td>&nbsp;</td><td>Alt + 032 <i>OR</i> Alt + 32</td><td>Space</td></tr>
-
-
-				{/* REMOVE BIN OCT HEX */}
-
 				<tr><td>33</td><td>!</td><td>&amp;#33;</td><td>&nbsp;</td><td>Alt + 033 <i>OR</i> Alt + 33</td><td>Exclamation mark</td></tr>
 				<tr><td>34</td><td>&quot;</td><td>&amp;#34;</td><td>&amp;quot;</td><td>Alt + 034 <i>OR</i> Alt + 34</td><td>Double quotes or speech marks</td></tr>
 				<tr><td>35</td><td>#</td><td>&amp;#35;</td><td>&nbsp;</td><td>Alt + 035 <i>OR</i> Alt + 35</td><td>Number</td></tr>
