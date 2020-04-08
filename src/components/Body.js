@@ -293,9 +293,11 @@ const Body = () => {
 				<tr><td>127</td><td>DEL</td><td>&amp;#127;</td><td>&nbsp;</td><td>&nbsp;</td><td>Delete</td></tr>
 				
 				{/* MAKE CHANGES BELOW */}
+
+				{/* &#169; -- &copy; -- alt+0169 */}
 				
 				<tr><td>128</td><td>Ç</td><td>&amp;#199;</td><td>&amp;Ccedil;</td><td>Alt + 0199 <i>OR</i> Alt + 128</td><td>Latin capital letter C with cedilla</td></tr>
-				<tr><td>129</td><td>■</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+				<tr><td>129</td><td>ü</td><td>&amp;129</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
 				<tr><td>130</td><td>&#130;</td><td>&amp;#130;</td><td>&amp;sbquo;</td><td>Alt + 0130</td><td>Single low-9 quotation mark</td></tr>
 				<tr><td>131</td><td>&#131;</td><td>&amp;#131;</td><td>&amp;fnof;</td><td>Alt + 0131 <i>OR</i> Alt + 159</td><td>Latin small letter f with hook</td></tr>
 				<tr><td>132</td><td>&#132;</td><td>&amp;#132;</td><td>&amp;bdquo;</td><td>Alt + 0132</td><td>Double low-9 quotation mark</td></tr>
