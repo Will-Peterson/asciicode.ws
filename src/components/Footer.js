@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='Footer'>
             <div>About Us | Contact Us | Privacy Policy | Terms of Service</div>
             <div>&copy; {new Date().getFullYear()} asciicode.ws</div>
-            <div>PetersonDigital, LLC</div>
+            <div>PetersonDigital</div>
         </div>
     );
 }

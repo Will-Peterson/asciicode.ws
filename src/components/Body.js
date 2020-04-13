@@ -23,22 +23,8 @@ const Body = () => {
 				<tr><td>5</td><td>ENQ</td><td>&amp;#005;</td><td>&nbsp;</td><td>&nbsp;</td><td>Enquiry</td></tr>
 				<tr><td>6</td><td>ACK</td><td>&amp;#006;</td><td>&nbsp;</td><td>&nbsp;</td><td>Acknowledgment</td></tr>
 				<tr><td>7</td><td>BEL</td><td>&amp;#007;</td><td>&nbsp;</td><td>&nbsp;</td><td>Bell</td></tr>
-				<tr>
-					<td>8</td>
-					<td>BS</td>
-					<td>&amp;#008;</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
-					<td>Backspace</td>
-				</tr>
-				<tr>
-					<td>9</td>
-					<td>HT</td>
-					<td>&amp;#009;</td>
-					<td>&nbsp;</td>
-					<td>&nbsp;</td>
-					<td>Horizontal Tab</td>
-				</tr>
+				<tr><td>8</td><td>BS</td><td>&amp;#008;</td><td>&nbsp;</td><td>&nbsp;</td><td>Backspace</td></tr>
+				<tr><td>9</td><td>HT</td><td>&amp;#009;</td><td>&nbsp;</td><td>&nbsp;</td><td>Horizontal Tab</td></tr>
 				<tr>
 					<td>10</td>
 					<td>LF</td>
@@ -289,7 +275,7 @@ const Body = () => {
 				<tr><td>123</td><td>{'{'}</td><td>&amp;#123;</td><td>&nbsp;</td><td>Alt + 0123 <i>OR</i> Alt + 123</td><td>Opening brace</td></tr>
 				<tr><td>124</td><td>|</td><td>&amp;#124;</td><td>&nbsp;</td><td>Alt + 0124 <i>OR</i> Alt + 124</td><td>Pipe or vertical bar</td></tr>
 				<tr><td>125</td><td>{'}'}</td><td>&amp;#125;</td><td>&nbsp;</td><td>Alt + 0125 <i>OR</i> Alt + 125</td><td>Closing brace</td></tr>
-				<tr><td>126</td><td>~</td><td>&nbsp;</td><td>&nbsp;</td><td>Alt + 0126 <i>OR</i> Alt + 126</td><td>Tilde or equivalency sign</td></tr>
+				<tr><td>126</td><td>~</td><td>&amp;#126;</td><td>&nbsp;</td><td>Alt + 0126 <i>OR</i> Alt + 126</td><td>Tilde or equivalency sign</td></tr>
 				<tr><td>127</td><td>DEL</td><td>&amp;#127;</td><td>&nbsp;</td><td>&nbsp;</td><td>Delete</td></tr>
 				
 				{/* MAKE CHANGES BELOW */}
@@ -297,8 +283,30 @@ const Body = () => {
 				{/* &#169; -- &copy; -- alt+0169 */}
 				
 				<tr><td>128</td><td>Ç</td><td>&amp;#199;</td><td>&amp;Ccedil;</td><td>Alt + 0199 <i>OR</i> Alt + 128</td><td>Latin capital letter C with cedilla</td></tr>
-				<tr><td>129</td><td>ü</td><td>&amp;129</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+				<tr><td>129</td><td>ü</td><td>&amp;#252;</td><td>&amp;uuml;</td><td>Alt + 0252 <i>OR</i> Alt + 129</td><td>Latin small letter U with diaeresis</td></tr>
+				<tr><td>130</td><td>é</td><td>&amp;#233;</td><td>&amp;eacute;</td><td>Alt + 0233 <i>OR</i> Alt + 130</td><td>Latin small letter E with acute</td></tr>
+				<tr><td>131</td><td>â</td><td>&amp;#226;</td><td>&amp;acirc;</td><td>Alt + 0226 <i>OR</i> Alt + 131</td><td>Latin small letter A with circumflex</td></tr>
+				<tr><td>132</td><td>ä</td><td>&amp;#228;</td><td>&amp;auml;</td><td>Alt + 0228 <i>OR</i> Alt + 132</td><td>Latin small letter A with diaeresis</td></tr>
+				<tr><td>133</td><td>à</td><td>&amp;#224;</td><td>&amp;agrave;</td><td>Alt + 0224 <i>OR</i> Alt + 133</td><td>Latin small letter A with grave</td></tr>
+				<tr><td>134</td><td>å</td><td>&amp;#229;</td><td>&amp;aring;</td><td>Alt + 0229 <i>OR</i> Alt + 134</td><td>Latin small letter a with ring above</td></tr>
+				<tr><td>135</td><td>ç</td><td>&amp;#231;</td><td>&amp;ccedil;</td><td>Alt + 0231 <i>OR</i> Alt + 135</td><td>Latin small letter c with cedilla</td></tr>
+				<tr><td>136</td><td>ê</td><td>&amp;#234;</td><td>&amp;ecirc;</td><td>Alt + 0234 <i>OR</i> Alt + 136</td><td>Latin small letter e with circumflex</td></tr>
+				<tr><td>137</td><td>ë</td><td>&amp;#235;</td><td>&amp;euml;</td><td>Alt + 0235 <i>OR</i> Alt + 137</td><td>Latin small letter e with diaeresis</td></tr>
+				<tr><td>138</td><td>è</td><td>&amp;#232;</td><td>&amp;egrave;</td><td>Alt + 0232 <i>OR</i> Alt + 138</td><td>Latin small letter e with grave</td></tr>
+				<tr><td>139</td><td>ï</td><td>&amp;#239;</td><td>&amp;iuml;</td><td>Alt + 0239 <i>OR</i> Alt + 139</td><td>Latin small letter i with diaeresis</td></tr>
+				<tr><td>140</td><td>î</td><td>&amp;#238;</td><td>&amp;icirc;</td><td>Alt + 0238 <i>OR</i> Alt + 140</td><td>Latin small letter i with circumflex</td></tr>
+				<tr><td>141</td><td>ì</td><td>&amp;#236;</td><td>&amp;igrave;</td><td>Alt + 0236 <i>OR</i> Alt + 141</td><td>Latin small letter i with grave</td></tr>
+				<tr><td>142</td><td>Ä</td><td>&amp;#196;</td><td>&amp;Auml;</td><td>Alt + 0196 <i>OR</i> Alt + 142</td><td>Latin capital letter A with diaeresis</td></tr>
+				<tr><td>143</td><td>Å</td><td>&amp;#197;</td><td>&amp;Aring;</td><td>Alt + 0197 <i>OR</i> Alt + 143</td><td>Latin capital letter A with ring above</td></tr>
+				<tr><td>144</td><td>É</td><td>&amp;#201;</td><td>&amp;Eacute;</td><td>Alt + 0201 <i>OR</i> Alt + 144</td><td>Latin capital letter E with acute</td></tr>
+				<tr><td>145</td><td>æ</td><td>&amp;#230;</td><td>&amp;aelig;</td><td>Alt + 0230 <i>OR</i> Alt + 145</td><td>Latin small letter ae</td></tr>
+				<tr><td>146</td><td>Æ</td><td>&amp;#198;</td><td>&amp;AElig;</td><td>Alt + 0198 <i>OR</i> Alt + 146</td><td>Latin capital letter AE</td></tr>
+
+
+
+
 				<tr><td>130</td><td>&#130;</td><td>&amp;#130;</td><td>&amp;sbquo;</td><td>Alt + 0130</td><td>Single low-9 quotation mark</td></tr>
+				
 				<tr><td>131</td><td>&#131;</td><td>&amp;#131;</td><td>&amp;fnof;</td><td>Alt + 0131 <i>OR</i> Alt + 159</td><td>Latin small letter f with hook</td></tr>
 				<tr><td>132</td><td>&#132;</td><td>&amp;#132;</td><td>&amp;bdquo;</td><td>Alt + 0132</td><td>Double low-9 quotation mark</td></tr>
 				<tr><td>133</td><td>&#133;</td><td>&amp;#133;</td><td>&amp;hellip;</td><td>Alt + 0133</td><td>Horizontal ellipsis</td></tr>
