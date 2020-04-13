@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      &#169; &copy; ⌐
       <Body />
       <Footer />
     </div>
