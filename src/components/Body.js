@@ -278,7 +278,7 @@ const Body = () => {
 				<tr><td>126</td><td>~</td><td>&amp;#126;</td><td>&nbsp;</td><td>Alt + 0126 <i>OR</i> Alt + 126</td><td>Tilde or equivalency sign</td></tr>
 				<tr><td>127</td><td>DEL</td><td>&amp;#127;</td><td>&nbsp;</td><td>&nbsp;</td><td>Delete</td></tr>
 				
-				{/* MAKE CHANGES BELOW */}
+				{/* MADE CHANGES BELOW */}
 
 				{/* &#169; -- &copy; -- alt+0169 */}
 				
@@ -302,12 +302,12 @@ const Body = () => {
 				<tr><td>145</td><td>æ</td><td>&amp;#230;</td><td>&amp;aelig;</td><td>Alt + 0230 <i>OR</i> Alt + 145</td><td>Latin small letter ae</td></tr>
 				<tr><td>146</td><td>Æ</td><td>&amp;#198;</td><td>&amp;AElig;</td><td>Alt + 0198 <i>OR</i> Alt + 146</td><td>Latin capital letter AE</td></tr>
 
-
+				{/* MAKE CHANGES BELOW */}
 
 
 				<tr><td>130</td><td>&#130;</td><td>&amp;#130;</td><td>&amp;sbquo;</td><td>Alt + 0130</td><td>Single low-9 quotation mark</td></tr>
 				
-				<tr><td>131</td><td>&#131;</td><td>&amp;#131;</td><td>&amp;fnof;</td><td>Alt + 0131 <i>OR</i> Alt + 159</td><td>Latin small letter f with hook</td></tr>
+				<tr><td>131</td><td>{'&#131;'}</td><td>&amp;#131;</td><td>&amp;fnof;</td><td>Alt + 0131 <i>OR</i> Alt + 159</td><td>Latin small letter f with hook</td></tr>
 				<tr><td>132</td><td>&#132;</td><td>&amp;#132;</td><td>&amp;bdquo;</td><td>Alt + 0132</td><td>Double low-9 quotation mark</td></tr>
 				<tr><td>133</td><td>&#133;</td><td>&amp;#133;</td><td>&amp;hellip;</td><td>Alt + 0133</td><td>Horizontal ellipsis</td></tr>
 				<tr><td>134</td><td>&#134;</td><td>&amp;#134;</td><td>&amp;dagger;</td><td>Alt + 0134</td><td>Dagger</td></tr>
