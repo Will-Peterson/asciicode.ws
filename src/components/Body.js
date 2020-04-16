@@ -301,10 +301,15 @@ const Body = () => {
 				<tr><td>144</td><td>É</td><td>&amp;#201;</td><td>&amp;Eacute;</td><td>Alt + 0201 <i>OR</i> Alt + 144</td><td>Latin capital letter E with acute</td></tr>
 				<tr><td>145</td><td>æ</td><td>&amp;#230;</td><td>&amp;aelig;</td><td>Alt + 0230 <i>OR</i> Alt + 145</td><td>Latin small letter ae</td></tr>
 				<tr><td>146</td><td>Æ</td><td>&amp;#198;</td><td>&amp;AElig;</td><td>Alt + 0198 <i>OR</i> Alt + 146</td><td>Latin capital letter AE</td></tr>
+				<tr><td>147</td><td>ô</td><td>&amp;#244;</td><td>&amp;ocirc;</td><td>Alt + 0244 <i>OR</i> Alt + 147</td><td>Latin small letter o with circumflex</td></tr>
+				<tr><td>148</td><td>ö</td><td>&amp;#246;</td><td>&amp;ouml;</td><td>Alt + 0246 <i>OR</i> Alt + 148</td><td>Latin small letter o with diaeresis or umlaut</td></tr>
+				<tr><td>149</td><td>ò</td><td>&amp;#242;</td><td>&amp;ograve;</td><td>Alt + 0242 <i>OR</i> Alt + 149</td><td>Latin small letter o with grave</td></tr>
+				<tr><td>150</td><td>û</td><td>&amp;#251;</td><td>&amp;ucirc;</td><td>Alt + 0251 <i>OR</i> Alt + 150</td><td>Latin small letter u with circumflex</td></tr>
+				<tr><td>151</td><td>ù</td><td>&amp;#249;</td><td>&amp;ugrave;</td><td>Alt + 0249 <i>OR</i> Alt + 151</td><td>Latin small letter u with grave</td></tr>
+				<tr><td>152</td><td>ÿ</td><td>&amp;#255;</td><td>&amp;yuml;</td><td>Alt + 0255 <i>OR</i> Alt + 152</td><td>Latin small letter y with diaeresis</td></tr>
+				
 
 				{/* MAKE CHANGES BELOW */}
-
-
 				<tr><td>130</td><td>&#130;</td><td>&amp;#130;</td><td>&amp;sbquo;</td><td>Alt + 0130</td><td>Single low-9 quotation mark</td></tr>
 				
 				<tr><td>131</td><td>{'&#131;'}</td><td>&amp;#131;</td><td>&amp;fnof;</td><td>Alt + 0131 <i>OR</i> Alt + 159</td><td>Latin small letter f with hook</td></tr>
