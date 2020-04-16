@@ -307,9 +307,29 @@ const Body = () => {
 				<tr><td>150</td><td>û</td><td>&amp;#251;</td><td>&amp;ucirc;</td><td>Alt + 0251 <i>OR</i> Alt + 150</td><td>Latin small letter u with circumflex</td></tr>
 				<tr><td>151</td><td>ù</td><td>&amp;#249;</td><td>&amp;ugrave;</td><td>Alt + 0249 <i>OR</i> Alt + 151</td><td>Latin small letter u with grave</td></tr>
 				<tr><td>152</td><td>ÿ</td><td>&amp;#255;</td><td>&amp;yuml;</td><td>Alt + 0255 <i>OR</i> Alt + 152</td><td>Latin small letter y with diaeresis</td></tr>
-				
+				<tr><td>153</td><td>Ö</td><td>&amp;#214;</td><td>&amp;Ouml;</td><td>Alt + 0214 <i>OR</i> Alt + 153</td><td>Latin capital letter O with diaeresis</td></tr>
+				<tr><td>154</td><td>Ü</td><td>&amp;#220;</td><td>&amp;Uuml;</td><td>Alt + 0220 <i>OR</i> Alt + 154</td><td>Latin capital letter U with diaeresis</td></tr>
+				<tr><td>155</td><td>ø</td><td>&amp;#248;</td><td>&amp;oslash;</td><td>Alt + 0248</td><td>Latin small letter o with slash</td></tr>
+				<tr><td>156</td><td>£</td><td>&amp;#163;</td><td>&amp;pound;</td><td>Alt + 0163 <i>OR</i> Alt + 156</td><td>Pound sign</td></tr>
+				<tr><td>157</td><td>Ø</td><td>&amp;#216;</td><td>&amp;Oslash;</td><td>Alt + 0216</td><td>Latin capital letter O with slash</td></tr>
+				<tr><td>158</td><td>×</td><td>&amp;#215;</td><td>&amp;times;</td><td>Alt + 0215</td><td>Multiplication sign</td></tr>
+				<tr><td>159</td><td>ƒ</td><td>&amp;#402;</td><td>&amp;fnof;</td><td>Alt + 159</td><td>Function</td></tr>
+				<tr><td>160</td><td>á</td><td>&amp;#225;</td><td>&amp;aacute;</td><td>Alt + 0225 <i>OR</i> Alt + 160</td><td>Latin small letter a with acute</td></tr>
+				<tr><td>161</td><td>í</td><td>&amp;#237;</td><td>&amp;iacute;</td><td>Alt + 0237 <i>OR</i> Alt + 161</td><td>Latin small letter i with acute</td></tr>
+				<tr><td>162</td><td>ó</td><td>&amp;#243;</td><td>&amp;oacute;</td><td>Alt + 0243 <i>OR</i> Alt + 162</td><td>Latin small letter o with acute</td></tr>
+				<tr><td>163</td><td>ú</td><td>&amp;#250;</td><td>&amp;uacute;</td><td>Alt + 0250 <i>OR</i> Alt + 163</td><td>Latin small letter u with acute</td></tr>
+				<tr><td>164</td><td>ñ</td><td>&amp;#241;</td><td>&amp;ntilde;</td><td>Alt + 0241 <i>OR</i> Alt + 164</td><td>Latin small letter n with tilde</td></tr>
+				<tr><td>165</td><td>Ñ</td><td>&amp;#209;</td><td>&amp;Ntilde;</td><td>Alt + 0209 <i>OR</i> Alt + 165</td><td>Latin capital letter N with tilde</td></tr>
+				<tr><td>166</td><td>ª</td><td></td></tr>
+
+
+
+
 
 				{/* MAKE CHANGES BELOW */}
+				
+				
+				
 				<tr><td>130</td><td>&#130;</td><td>&amp;#130;</td><td>&amp;sbquo;</td><td>Alt + 0130</td><td>Single low-9 quotation mark</td></tr>
 				
 				<tr><td>131</td><td>{'&#131;'}</td><td>&amp;#131;</td><td>&amp;fnof;</td><td>Alt + 0131 <i>OR</i> Alt + 159</td><td>Latin small letter f with hook</td></tr>
