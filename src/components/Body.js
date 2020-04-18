@@ -367,7 +367,7 @@ const Body = () => {
 				<tr><td>210</td><td>Ê</td><td>&amp;#202;</td><td>&amp;Ecirc;</td><td>Alt + 0202</td><td>Latin capital letter E with circumflex</td></tr>
 				<tr><td>211</td><td>Ë</td><td>&amp;#203;</td><td>&amp;Euml;</td><td>Alt + 0203</td><td>Latin capital letter E with diaeresis</td></tr>
 				<tr><td>212</td><td>È</td><td>&amp;#200;</td><td>&amp;Egrave;</td><td>Alt + 0200</td><td>Latin capital letter E with grave</td></tr>
-				<tr><td>213</td><td>╒</td><td></td><td></td><td>Alt + 213</td><td>Box drawing character - single verticle line</td></tr>
+				<tr><td>213</td><td></td><td></td><td></td><td></td><td></td></tr>
 				<tr><td>214</td><td>Í</td><td>&amp;#205;</td><td>&amp;Iacute;</td><td>Alt + 0205</td><td>Latin capital letter I with acute</td></tr>
 				<tr><td>215</td><td>Î</td><td>&amp;#206;</td><td>&amp;Icirc;</td><td>Alt + 0206</td><td>Latin capital letter I with circumflex</td></tr>
 				<tr><td>216</td><td>Ï</td><td>&amp;#207;</td><td>&amp;Iuml;</td><td>Alt + 0207</td><td>Latin capital letter I with diaeresis</td></tr>
