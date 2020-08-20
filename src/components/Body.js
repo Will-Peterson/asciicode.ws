@@ -15,7 +15,7 @@ const Body = () => {
 					</tr>
 			</thead>
 			<tbody>
-				<tr><td>0</td><td>NUL</td><td>&amp;#000;</td><td>&nbsp;</td><td>&nbsp;</td><td>Null character</td></tr>
+                <tr><td>0</td><td>NUL</td><td>&amp;#000;</td><td>&nbsp;</td><td>&nbsp;</td><td>Null character</td></tr>
 				<tr><td>1</td><td>SOH</td><td>&amp;#001;</td><td>&nbsp;</td><td>&nbsp;</td><td>Start of Heading</td></tr>
 				<tr><td>2</td><td>STX</td><td>&amp;#002;</td><td>&nbsp;</td><td>&nbsp;</td><td>Start of Text</td></tr>
 				<tr><td>3</td><td>ETX</td><td>&amp;#003;</td><td>&nbsp;</td><td>&nbsp;</td><td>End of Text</td></tr>
@@ -182,7 +182,7 @@ const Body = () => {
 				<tr><td>30</td><td>RS</td><td>&amp;#030;</td><td>&nbsp;</td><td>&nbsp;</td><td>Record Separator</td></tr>
 				<tr><td>31</td><td>US</td><td>&amp;#031;</td><td>&nbsp;</td><td>&nbsp;</td><td>Unit Separator</td></tr>
 				<tr><td>32</td><td>&nbsp;</td><td>&amp;#32;</td><td>&nbsp;</td><td>Alt + 032 <i>OR</i> Alt + 32</td><td>Space</td></tr>
-				<tr><td>33</td><td>!</td><td>&amp;#33;</td><td>&nbsp;</td><td>Alt + 033 <i>OR</i> Alt + 33</td><td>Exclamation mark</td></tr>
+                <tr><td>33</td><td>!</td><td>&amp;#33;</td><td>&nbsp;</td><td>Alt + 033 <i>OR</i> Alt + 33</td><td>Exclamation mark</td></tr>
 				<tr><td>34</td><td>&quot;</td><td>&amp;#34;</td><td>&amp;quot;</td><td>Alt + 034 <i>OR</i> Alt + 34</td><td>Double quotes or speech marks</td></tr>
 				<tr><td>35</td><td>#</td><td>&amp;#35;</td><td>&nbsp;</td><td>Alt + 035 <i>OR</i> Alt + 35</td><td>Number</td></tr>
 				<tr><td>36</td><td>$</td><td>&amp;#36;</td><td>&nbsp;</td><td>Alt + 036 <i>OR</i> Alt + 36</td><td>Dollar</td></tr>
@@ -277,169 +277,139 @@ const Body = () => {
 				<tr><td>125</td><td>{'}'}</td><td>&amp;#125;</td><td>&nbsp;</td><td>Alt + 0125 <i>OR</i> Alt + 125</td><td>Closing brace</td></tr>
 				<tr><td>126</td><td>~</td><td>&amp;#126;</td><td>&nbsp;</td><td>Alt + 0126 <i>OR</i> Alt + 126</td><td>Tilde or equivalency sign</td></tr>
 				<tr><td>127</td><td>DEL</td><td>&amp;#127;</td><td>&nbsp;</td><td>&nbsp;</td><td>Delete</td></tr>
-				
-				{/* MADE CHANGES BELOW */}
-
-				{/* &#169; -- &copy; -- alt+0169 */}
-				
-				<tr><td>128</td><td>Ç</td><td>&amp;#199;</td><td>&amp;Ccedil;</td><td>Alt + 0199 <i>OR</i> Alt + 128</td><td>Latin capital letter C with cedilla</td></tr>
-				<tr><td>129</td><td>ü</td><td>&amp;#252;</td><td>&amp;uuml;</td><td>Alt + 0252 <i>OR</i> Alt + 129</td><td>Latin small letter U with diaeresis</td></tr>
-				<tr><td>130</td><td>é</td><td>&amp;#233;</td><td>&amp;eacute;</td><td>Alt + 0233 <i>OR</i> Alt + 130</td><td>Latin small letter E with acute</td></tr>
-				<tr><td>131</td><td>â</td><td>&amp;#226;</td><td>&amp;acirc;</td><td>Alt + 0226 <i>OR</i> Alt + 131</td><td>Latin small letter A with circumflex</td></tr>
-				<tr><td>132</td><td>ä</td><td>&amp;#228;</td><td>&amp;auml;</td><td>Alt + 0228 <i>OR</i> Alt + 132</td><td>Latin small letter A with diaeresis</td></tr>
-				<tr><td>133</td><td>à</td><td>&amp;#224;</td><td>&amp;agrave;</td><td>Alt + 0224 <i>OR</i> Alt + 133</td><td>Latin small letter A with grave</td></tr>
-				<tr><td>134</td><td>å</td><td>&amp;#229;</td><td>&amp;aring;</td><td>Alt + 0229 <i>OR</i> Alt + 134</td><td>Latin small letter a with ring above</td></tr>
-				<tr><td>135</td><td>ç</td><td>&amp;#231;</td><td>&amp;ccedil;</td><td>Alt + 0231 <i>OR</i> Alt + 135</td><td>Latin small letter c with cedilla</td></tr>
-				<tr><td>136</td><td>ê</td><td>&amp;#234;</td><td>&amp;ecirc;</td><td>Alt + 0234 <i>OR</i> Alt + 136</td><td>Latin small letter e with circumflex</td></tr>
-				<tr><td>137</td><td>ë</td><td>&amp;#235;</td><td>&amp;euml;</td><td>Alt + 0235 <i>OR</i> Alt + 137</td><td>Latin small letter e with diaeresis</td></tr>
-				<tr><td>138</td><td>è</td><td>&amp;#232;</td><td>&amp;egrave;</td><td>Alt + 0232 <i>OR</i> Alt + 138</td><td>Latin small letter e with grave</td></tr>
-				<tr><td>139</td><td>ï</td><td>&amp;#239;</td><td>&amp;iuml;</td><td>Alt + 0239 <i>OR</i> Alt + 139</td><td>Latin small letter i with diaeresis</td></tr>
-				<tr><td>140</td><td>î</td><td>&amp;#238;</td><td>&amp;icirc;</td><td>Alt + 0238 <i>OR</i> Alt + 140</td><td>Latin small letter i with circumflex</td></tr>
-				<tr><td>141</td><td>ì</td><td>&amp;#236;</td><td>&amp;igrave;</td><td>Alt + 0236 <i>OR</i> Alt + 141</td><td>Latin small letter i with grave</td></tr>
-				<tr><td>142</td><td>Ä</td><td>&amp;#196;</td><td>&amp;Auml;</td><td>Alt + 0196 <i>OR</i> Alt + 142</td><td>Latin capital letter A with diaeresis</td></tr>
-				<tr><td>143</td><td>Å</td><td>&amp;#197;</td><td>&amp;Aring;</td><td>Alt + 0197 <i>OR</i> Alt + 143</td><td>Latin capital letter A with ring above</td></tr>
-				<tr><td>144</td><td>É</td><td>&amp;#201;</td><td>&amp;Eacute;</td><td>Alt + 0201 <i>OR</i> Alt + 144</td><td>Latin capital letter E with acute</td></tr>
-				<tr><td>145</td><td>æ</td><td>&amp;#230;</td><td>&amp;aelig;</td><td>Alt + 0230 <i>OR</i> Alt + 145</td><td>Latin small letter ae</td></tr>
-				<tr><td>146</td><td>Æ</td><td>&amp;#198;</td><td>&amp;AElig;</td><td>Alt + 0198 <i>OR</i> Alt + 146</td><td>Latin capital letter AE</td></tr>
-				<tr><td>147</td><td>ô</td><td>&amp;#244;</td><td>&amp;ocirc;</td><td>Alt + 0244 <i>OR</i> Alt + 147</td><td>Latin small letter o with circumflex</td></tr>
-				<tr><td>148</td><td>ö</td><td>&amp;#246;</td><td>&amp;ouml;</td><td>Alt + 0246 <i>OR</i> Alt + 148</td><td>Latin small letter o with diaeresis or umlaut</td></tr>
-				<tr><td>149</td><td>ò</td><td>&amp;#242;</td><td>&amp;ograve;</td><td>Alt + 0242 <i>OR</i> Alt + 149</td><td>Latin small letter o with grave</td></tr>
-				<tr><td>150</td><td>û</td><td>&amp;#251;</td><td>&amp;ucirc;</td><td>Alt + 0251 <i>OR</i> Alt + 150</td><td>Latin small letter u with circumflex</td></tr>
-				<tr><td>151</td><td>ù</td><td>&amp;#249;</td><td>&amp;ugrave;</td><td>Alt + 0249 <i>OR</i> Alt + 151</td><td>Latin small letter u with grave</td></tr>
-				<tr><td>152</td><td>ÿ</td><td>&amp;#255;</td><td>&amp;yuml;</td><td>Alt + 0255 <i>OR</i> Alt + 152</td><td>Latin small letter y with diaeresis</td></tr>
-				<tr><td>153</td><td>Ö</td><td>&amp;#214;</td><td>&amp;Ouml;</td><td>Alt + 0214 <i>OR</i> Alt + 153</td><td>Latin capital letter O with diaeresis</td></tr>
-				<tr><td>154</td><td>Ü</td><td>&amp;#220;</td><td>&amp;Uuml;</td><td>Alt + 0220 <i>OR</i> Alt + 154</td><td>Latin capital letter U with diaeresis</td></tr>
-				<tr><td>155</td><td>ø</td><td>&amp;#248;</td><td>&amp;oslash;</td><td>Alt + 0248</td><td>Latin small letter o with slash</td></tr>
-				<tr><td>156</td><td>£</td><td>&amp;#163;</td><td>&amp;pound;</td><td>Alt + 0163 <i>OR</i> Alt + 156</td><td>Pound sign</td></tr>
-				<tr><td>157</td><td>Ø</td><td>&amp;#216;</td><td>&amp;Oslash;</td><td>Alt + 0216</td><td>Latin capital letter O with slash</td></tr>
-				<tr><td>158</td><td>×</td><td>&amp;#215;</td><td>&amp;times;</td><td>Alt + 0215</td><td>Multiplication sign</td></tr>
-				<tr><td>159</td><td>ƒ</td><td>&amp;#402;</td><td>&amp;fnof;</td><td>Alt + 159</td><td>Function</td></tr>
-				<tr><td>160</td><td>á</td><td>&amp;#225;</td><td>&amp;aacute;</td><td>Alt + 0225 <i>OR</i> Alt + 160</td><td>Latin small letter a with acute</td></tr>
-				<tr><td>161</td><td>í</td><td>&amp;#237;</td><td>&amp;iacute;</td><td>Alt + 0237 <i>OR</i> Alt + 161</td><td>Latin small letter i with acute</td></tr>
-				<tr><td>162</td><td>ó</td><td>&amp;#243;</td><td>&amp;oacute;</td><td>Alt + 0243 <i>OR</i> Alt + 162</td><td>Latin small letter o with acute</td></tr>
-				<tr><td>163</td><td>ú</td><td>&amp;#250;</td><td>&amp;uacute;</td><td>Alt + 0250 <i>OR</i> Alt + 163</td><td>Latin small letter u with acute</td></tr>
-				<tr><td>164</td><td>ñ</td><td>&amp;#241;</td><td>&amp;ntilde;</td><td>Alt + 0241 <i>OR</i> Alt + 164</td><td>Latin small letter n with tilde</td></tr>
-				<tr><td>165</td><td>Ñ</td><td>&amp;#209;</td><td>&amp;Ntilde;</td><td>Alt + 0209 <i>OR</i> Alt + 165</td><td>Latin capital letter N with tilde</td></tr>
-				<tr><td>166</td><td>ª</td><td>&amp;#170;</td><td>&amp;ordf;</td><td>Alt + 0170 <i>OR</i> Alt + 166</td><td>Feminine ordinal indicator</td></tr>
-				<tr><td>167</td><td>°</td><td>&amp;#176;</td><td>&amp;deg;</td><td>Alt + 0176</td><td>Degree sign or masculine ordinal indicator</td></tr>
-				<tr><td>168</td><td>¿</td><td>&amp;#191;</td><td>&amp;iquest;</td><td>Alt + 0191 <i>OR</i> Alt + 168</td><td>Inverted question mark</td></tr>
-				<tr><td>169</td><td>®</td><td>&amp;#174;</td><td>&amp;reg;</td><td>Alt + 0174</td><td>Registered trade mark sign</td></tr>
-				<tr><td>170</td><td>¬</td><td>&amp;#172;</td><td>&amp;not;</td><td>Alt + 0172</td><td>Not sign</td></tr>
-				<tr><td>171</td><td>½</td><td>&amp;#189;</td><td>&amp;frac12;</td><td>Alt + 0189 <i>OR</i> Alt + 171</td><td>Fraction one half</td></tr>
-				<tr><td>172</td><td>¼</td><td>&amp;#188;</td><td>&amp;frac14;</td><td>Alt + 0188 <i>OR</i> Alt + 172</td><td>Fraction one quarter</td></tr>
-				<tr><td>173</td><td>¡</td><td>&amp;#161;</td><td>&amp;iexcl;</td><td>Alt + 0161 <i>OR</i> Alt + 173</td><td>Inverted exclamation mark</td></tr>
-				<tr><td>174</td><td>«</td><td>&amp;#171;</td><td>&amp;laquo;</td><td>Alt + 0171 <i>OR</i> Alt + 174</td><td>Left double angle quotes</td></tr>
-				<tr><td>175</td><td>»</td><td>&amp;#187;</td><td>&amp;raquo;</td><td>Alt + 0187 <i>OR</i> Alt + 175</td><td>Right double angle quotes</td></tr>
-				<tr><td>176</td><td>░</td><td></td><td></td><td>Alt + 176</td><td>Low density dotted graphic character</td></tr>
-				<tr><td>177</td><td>▒</td><td></td><td></td><td>Alt + 177</td><td>Medium density dotted graphic character</td></tr>
-				<tr><td>178</td><td>▓</td><td></td><td></td><td>Alt + 178</td><td>High density dotted graphic character</td></tr>
-				<tr><td>179</td><td>│</td><td></td><td></td><td>Alt + 179</td><td>Box drawing character - single verticle line</td></tr>
-				<tr><td>180</td><td>┤</td><td></td><td></td><td>Alt + 180</td><td>Box drawing character - single verticle and left line</td></tr>
-				<tr><td>181</td><td>Á</td><td>&amp;#193;</td><td>&amp;Aacute;</td><td>Alt + 0193</td><td>Latin capital letter A with acute</td></tr>
-				<tr><td>182</td><td>Â</td><td>&amp;#194;</td><td>&amp;Acirc;</td><td>Alt + 0194</td><td>Latin capital letter A with circumflex</td></tr>
-				<tr><td>183</td><td>À</td><td>&amp;#192;</td><td>&amp;Agrave;</td><td>Alt + 0192</td><td>Latin capital letter A with grave</td></tr>
-				<tr><td>184</td><td>©</td><td>&amp;#169;</td><td>&amp;copy;</td><td>Alt + 0169</td><td>Copyright sign</td></tr>
-				<tr><td>185</td><td>╣</td><td></td><td></td><td>Alt + 185</td><td>Box drawing character - double verticle and left line</td></tr>
-				<tr><td>186</td><td>║</td><td></td><td></td><td>Alt + 186</td><td>Box drawing character - double verticle line</td></tr>
-				<tr><td>187</td><td>╗</td><td></td><td></td><td>Alt + 187</td><td>Box drawing character - double line upper right corner</td></tr>
-				<tr><td>188</td><td>╝</td><td></td><td></td><td>Alt + 188</td><td>Box drawing character - double line lower right corner</td></tr>
-				<tr><td>189</td><td>¢</td><td>&amp;#162;</td><td>&amp;cent;</td><td>Alt + 0162 <i>OR</i> Alt + 155</td><td>Cent sign</td></tr>
-				<tr><td>190</td><td>¥</td><td>&amp;#165;</td><td>&amp;yen;</td><td>Alt + 0165 <i>OR</i> Alt + 157</td><td>Yen sign</td></tr>
-				<tr><td>191</td><td>┐</td><td></td><td></td><td>Alt + 191</td><td>Box drawing character - single line upper right corner</td></tr>
-				<tr><td>192</td><td>└</td><td></td><td></td><td>Alt + 192</td><td>Box drawing character - single line lower left corner</td></tr>
-				<tr><td>193</td><td>┴</td><td></td><td></td><td>Alt + 193</td><td>Box drawing character - single line horizontal and verticle up</td></tr>
-				<tr><td>194</td><td>┬</td><td></td><td></td><td>Alt + 194</td><td>Box drawing character - single line horizontal and verticle down</td></tr>
-				<tr><td>195</td><td>├</td><td></td><td></td><td>Alt + 195</td><td>Box drawing character - single verticle and right line</td></tr>
-				<tr><td>196</td><td>─</td><td></td><td></td><td>Alt + 196</td><td>Box drawing character - single horizontal line</td></tr>
-				<tr><td>197</td><td>┼</td><td></td><td></td><td>Alt + 197</td><td>Box drawing character - single horizontal and verticle line</td></tr>
-				<tr><td>198</td><td>ã</td><td>&amp;#227;</td><td>&amp;atilde;</td><td>Alt + 0227</td><td>Latin small letter a with tilde</td></tr>
-				<tr><td>199</td><td>Ã</td><td>&amp;#195;</td><td>&amp;Atilde;</td><td>Alt + 0195</td><td>Latin capital letter A with tilde</td></tr>
-				<tr><td>200</td><td>╚</td><td></td><td></td><td>Alt + 200</td><td>Box drawing character - double line lower left corner</td></tr>
-				<tr><td>201</td><td>╔</td><td></td><td></td><td>Alt + 201</td><td>Box drawing character - double line upper right corner</td></tr>
-				<tr><td>202</td><td>╩</td><td></td><td></td><td>Alt + 202</td><td>Box drawing character - double line horizontal and verticle up</td></tr>
-				<tr><td>203</td><td>╦</td><td></td><td></td><td>Alt + 203</td><td>Box drawing character - double line horizontal and verticle down</td></tr>
-				<tr><td>204</td><td>╠</td><td></td><td></td><td>Alt + 204</td><td>Box drawing character - double verticle and right line</td></tr>
-				<tr><td>205</td><td>═</td><td></td><td></td><td>Alt + 205</td><td>Box drawing character - double horizontal line</td></tr>
-				<tr><td>206</td><td>╬</td><td></td><td></td><td>Alt + 206</td><td>Box drawing character - double horizontal and verticle line</td></tr>
-				<tr><td>207</td><td>¤</td><td>&amp;#164;</td><td>&amp;curren;</td><td>Alt + 0164</td><td>Currency sign</td></tr>
-				<tr><td>208</td><td>ð</td><td>&amp;#240;</td><td>&amp;eth;</td><td>Alt + 0240</td><td>Latin small letter eth</td></tr>
-				<tr><td>209</td><td>Ð</td><td>&amp;#208;</td><td>&amp;ETH;</td><td>Alt + 0208</td><td>Latin capital letter ETH</td></tr>
-				<tr><td>210</td><td>Ê</td><td>&amp;#202;</td><td>&amp;Ecirc;</td><td>Alt + 0202</td><td>Latin capital letter E with circumflex</td></tr>
-				<tr><td>211</td><td>Ë</td><td>&amp;#203;</td><td>&amp;Euml;</td><td>Alt + 0203</td><td>Latin capital letter E with diaeresis</td></tr>
-				<tr><td>212</td><td>È</td><td>&amp;#200;</td><td>&amp;Egrave;</td><td>Alt + 0200</td><td>Latin capital letter E with grave</td></tr>
-				<tr><td>213</td><td></td><td></td><td></td><td></td><td></td></tr>
-				<tr><td>214</td><td>Í</td><td>&amp;#205;</td><td>&amp;Iacute;</td><td>Alt + 0205</td><td>Latin capital letter I with acute</td></tr>
-				<tr><td>215</td><td>Î</td><td>&amp;#206;</td><td>&amp;Icirc;</td><td>Alt + 0206</td><td>Latin capital letter I with circumflex</td></tr>
-				<tr><td>216</td><td>Ï</td><td>&amp;#207;</td><td>&amp;Iuml;</td><td>Alt + 0207</td><td>Latin capital letter I with diaeresis</td></tr>
-				{/* MAKE CHANGES BELOW */}
-				
-
-				{/* FIX 213 */}
-				
-				<tr><td>130</td><td>&#130;</td><td>&amp;#130;</td><td>&amp;sbquo;</td><td>Alt + 0130</td><td>Single low-9 quotation mark</td></tr>
-				<tr><td>131</td><td>{'&#131;'}</td><td>&amp;#131;</td><td>&amp;fnof;</td><td>Alt + 0131 <i>OR</i> Alt + 159</td><td>Latin small letter f with hook</td></tr>
-				<tr><td>132</td><td>&#132;</td><td>&amp;#132;</td><td>&amp;bdquo;</td><td>Alt + 0132</td><td>Double low-9 quotation mark</td></tr>
-				<tr><td>133</td><td>&#133;</td><td>&amp;#133;</td><td>&amp;hellip;</td><td>Alt + 0133</td><td>Horizontal ellipsis</td></tr>
-				<tr><td>134</td><td>&#134;</td><td>&amp;#134;</td><td>&amp;dagger;</td><td>Alt + 0134</td><td>Dagger</td></tr>
-				<tr><td>135</td><td>&#135;</td><td>&amp;#135;</td><td>&amp;Dagger;</td><td>Alt + 0135</td><td>Double dagger</td></tr>
-				<tr><td>136</td><td>&#136;</td><td>&amp;#136;</td><td>&amp;circ;</td><td>Alt + 0136</td><td>Modifier letter circumflex accent</td></tr>
-				<tr><td>137</td><td>&#137;</td><td>&amp;#137;</td><td>&amp;permil;</td><td>Alt + 0137</td><td>Per mille sign</td></tr>
-				<tr><td>138</td><td>&#138;</td><td>&amp;#138;</td><td>&amp;Scaron;</td><td>Alt + 0138</td><td>Latin capital letter S with caron</td></tr>
-				<tr><td>139</td><td>&#139;</td><td>&amp;#139;</td><td>&amp;lsaquo;</td><td>Alt + 0139</td><td>Single left-pointing angle quotation</td></tr>
-				<tr><td>140</td><td>&#140;</td><td>&amp;#140;</td><td>&amp;OElig;</td><td>Alt + 0140</td><td>Latin capital ligature OE</td></tr>
-				<tr><td>141</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-				<tr><td>142</td><td>&#142;</td><td>&amp;#142;</td><td>&nbsp;</td><td>Alt + 0142</td><td>Latin captial letter Z with caron</td></tr>
-				<tr><td>143</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-				<tr><td>144</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-				<tr><td>145</td><td>&#145;</td><td>&amp;#145;</td><td>&amp;lsquo;</td><td>Alt + 0145</td><td>Left single quotation mark</td></tr>
-				<tr><td>146</td><td>&#146;</td><td>&amp;#146;</td><td>&amp;rsquo;</td><td>Alt + 0146</td><td>Right single quotation mark</td></tr>
-				<tr><td>147</td><td>&#147;</td><td>&amp;#147;</td><td>&amp;ldquo;</td><td>Alt + 0147</td><td>Left double quotation mark</td></tr>
-				<tr><td>148</td><td>&#148;</td><td>&amp;#148;</td><td>&amp;rdquo;</td><td>Alt + 0148</td><td>Right double quotation mark</td></tr>
-				<tr><td>149</td><td>&#149;</td><td>&amp;#149;</td><td>&amp;bull;</td><td>Alt + 0149</td><td>Bullet</td></tr>
-				<tr><td>150</td><td>&#150;</td><td>&amp;#150;</td><td>&amp;ndash;</td><td>Alt + 0150</td><td>En dash</td></tr>
-				<tr><td>151</td><td>&#151;</td><td>&amp;#151;</td><td>&amp;mdash;</td><td>Alt + 0151</td><td>Em dash</td></tr>
-				<tr><td>152</td><td>&#152;</td><td>&amp;#152;</td><td>&amp;tilde;</td><td>Alt + 0152</td><td>Small tilde</td></tr>
-				<tr><td>153</td><td>&#153;</td><td>&amp;#153;</td><td>&amp;trade;</td><td>Alt + 0153</td><td>Trade mark sign</td></tr>
-				<tr><td>154</td><td>&#154;</td><td>&amp;#154;</td><td>&amp;scaron;</td><td>Alt + 0154</td><td>Latin small letter S with caron</td></tr>
-				<tr><td>155</td><td>&#155;</td><td>&amp;#155;</td><td>&amp;rsaquo; </td><td>Alt + 0155</td><td>Single right-pointing angle quotation mark</td></tr>
-				<tr><td>156</td><td>&#156;</td><td>&amp;#156;</td><td>&amp;oelig;</td><td>Alt + 0156</td><td>Latin small ligature oe</td></tr>
+                <tr><td>128</td><td>€</td><td>&amp;#128;</td><td>&amp;euro;</td><td>Alt + 0128</td><td>Euro sign</td></tr>
+				<tr><td>129</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+				<tr><td>130</td><td>‚</td><td>&amp;#130;</td><td>&amp;sbquo;</td><td>Alt + 0130</td><td>Single low-9 quotation mark</td></tr>
+				<tr><td>131</td><td>ƒ</td><td>&amp;#131;</td><td>&amp;fnof;</td><td>Alt + 0131 <i>OR</i> Alt + 159</td><td>Latin small letter f with hook</td></tr>
+				<tr><td>132</td><td>„</td><td>&amp;#132;</td><td>&amp;bdquo;</td><td>Alt + 0132</td><td>Double low-9 quotation mark</td></tr>
+				<tr><td>133</td><td>…</td><td>&amp;#133;</td><td>&amp;hellip;</td><td>Alt + 0133</td><td>Horizontal ellipsis</td></tr>
+				<tr><td>134</td><td>†</td><td>&amp;#134;</td><td>&amp;dagger;</td><td>Alt + 0134</td><td>Dagger</td></tr>
+				<tr><td>135</td><td>‡</td><td>&amp;#135;</td><td>&amp;Dagger;</td><td>Alt + 0135</td><td>Double dagger</td></tr>
+				<tr><td>136</td><td>ˆ</td><td>&amp;#136;</td><td>&amp;circ;</td><td>Alt + 0136</td><td>Modifier letter circumflex accent</td></tr>
+				<tr><td>137</td><td>‰</td><td>&amp;#137;</td><td>&amp;permil;</td><td>Alt + 0137</td><td>Per mille sign</td></tr>
+				<tr><td>138</td><td>Š</td><td>&amp;#138;</td><td>&amp;Scaron;</td><td>Alt + 0138</td><td>Latin capital letter S with caron</td></tr>
+                <tr><td>139</td><td>‹</td><td>&#139;</td><td>&amp;#139;</td><td>&amp;lsaquo;</td><td>Alt + 0139</td><td>Single left-pointing angle quotation</td></tr>
+				<tr><td>140</td><td>Œ</td><td>&#140;</td><td>&amp;#140;</td><td>&amp;OElig;</td><td>Alt + 0140</td><td>Latin capital ligature OE</td></tr>
+				<tr><td>141</td><td></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+				<tr><td>142</td><td>Ž</td><td>&#142;</td><td>&amp;#142;</td><td>&nbsp;</td><td>Alt + 0142</td><td>Latin captial letter Z with caron</td></tr>
+				<tr><td>143</td><td></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+				<tr><td>144</td><td></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+				<tr><td>145</td><td>‘</td><td>&#145;</td><td>&amp;#145;</td><td>&amp;lsquo;</td><td>Alt + 0145</td><td>Left single quotation mark</td></tr>
+				<tr><td>146</td><td>’</td><td>&#146;</td><td>&amp;#146;</td><td>&amp;rsquo;</td><td>Alt + 0146</td><td>Right single quotation mark</td></tr>
+				<tr><td>147</td><td>“</td><td>&#147;</td><td>&amp;#147;</td><td>&amp;ldquo;</td><td>Alt + 0147</td><td>Left double quotation mark</td></tr>
+				<tr><td>148</td><td>”</td><td>&#148;</td><td>&amp;#148;</td><td>&amp;rdquo;</td><td>Alt + 0148</td><td>Right double quotation mark</td></tr>
+				<tr><td>149</td><td>•</td><td>&#149;</td><td>&amp;#149;</td><td>&amp;bull;</td><td>Alt + 0149</td><td>Bullet</td></tr>
+				<tr><td>150</td>–<td>&#150;</td><td>&amp;#150;</td><td>&amp;ndash;</td><td>Alt + 0150</td><td>En dash</td></tr>
+                <tr><td>151</td>—<td>&#151;</td><td>&amp;#151;</td><td>&amp;mdash;</td><td>Alt + 0151</td><td>Em dash</td></tr>
+				<tr><td>152</td>˜<td>&#152;</td><td>&amp;#152;</td><td>&amp;tilde;</td><td>Alt + 0152</td><td>Small tilde</td></tr>
+				<tr><td>153</td>™<td>&#153;</td><td>&amp;#153;</td><td>&amp;trade;</td><td>Alt + 0153</td><td>Trade mark sign</td></tr>
+				<tr><td>154</td>š<td>&#154;</td><td>&amp;#154;</td><td>&amp;scaron;</td><td>Alt + 0154</td><td>Latin small letter S with caron</td></tr>
+				<tr><td>155</td>›<td>&#155;</td><td>&amp;#155;</td><td>&amp;rsaquo; </td><td>Alt + 0155</td><td>Single right-pointing angle quotation mark</td></tr>
+				<tr><td>156</td>œ<td>&#156;</td><td>&amp;#156;</td><td>&amp;oelig;</td><td>Alt + 0156</td><td>Latin small ligature oe</td></tr>
 				<tr><td>157</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
-				<tr><td>158</td><td>&#158;</td><td>&amp;#158;</td><td>&nbsp;</td><td>Alt + 0158</td><td>Latin small letter z with caron</td></tr>
-				<tr><td>159</td><td>&#159;</td><td>&amp;#159;</td><td>&amp;Yuml;</td><td>Alt + 0159</td><td>Latin capital letter Y with diaeresis</td></tr>
-				<tr><td>160</td><td>&nbsp;</td><td>&amp;#160;</td><td>&amp;nbsp;</td><td>Alt + 0160</td><td>Non-breaking space</td></tr>
+				<tr><td>158</td>ž<td>&#158;</td><td>&amp;#158;</td><td>&nbsp;</td><td>Alt + 0158</td><td>Latin small letter z with caron</td></tr>
+				<tr><td>159</td>Ÿ<td>&#159;</td><td>&amp;#159;</td><td>&amp;Yuml;</td><td>Alt + 0159</td><td>Latin capital letter Y with diaeresis</td></tr>
+				<tr><td>160</td> <td>&nbsp;</td><td>&amp;#160;</td><td>&amp;nbsp;</td><td>Alt + 0160</td><td>Non-breaking space</td></tr>
+				<tr><td>161</td>¡<td>¡</td><td>&amp;#161;</td><td>&amp;iexcl;</td><td>Alt + 0161 <i>OR</i> Alt + 173</td><td>Inverted exclamation mark</td></tr>
+				<tr><td>162</td>¢<td>¢</td><td>&amp;#162;</td><td>&amp;cent;</td><td>Alt + 0162 <i>OR</i> Alt + 155</td><td>Cent sign</td></tr>
+				<tr><td>163</td>£<td>£</td><td>&amp;#163;</td><td>&amp;pound;</td><td>Alt + 0163 <i>OR</i> Alt + 156</td><td>Pound sign</td></tr>
+				
+                
+                <tr><td>164</td><td>¤</td><td>&amp;#164;</td><td>&amp;curren;</td><td>Alt + 0164</td><td>Currency sign</td></tr>
+				<tr><td>165</td><td>¥</td><td>&amp;#165;</td><td>&amp;yen;</td><td>Alt + 0165 <i>OR</i> Alt + 157</td><td>Yen sign</td></tr>
 				<tr><td>166</td><td>¦</td><td>&amp;#166;</td><td>&amp;brvbar;</td><td>Alt + 0166</td><td>Pipe or broken vertical bar</td></tr>
 				<tr><td>167</td><td>§</td><td>&amp;#167;</td><td>&amp;sect;</td><td>Alt + 0167 <i>OR</i> Alt + 21</td><td>Section sign</td></tr>
 				<tr><td>168</td><td>¨</td><td>&amp;#168;</td><td>&amp;uml;</td><td>Alt + 0168</td><td>Spacing diaeresis or umlaut</td></tr>
+				<tr><td>169</td><td>©</td><td>&amp;#169;</td><td>&amp;copy;</td><td>Alt + 0169</td><td>Copyright sign</td></tr>
+				<tr><td>170</td><td>ª</td><td>&amp;#170;</td><td>&amp;ordf;</td><td>Alt + 0170 <i>OR</i> Alt + 166</td><td>Feminine ordinal indicator</td></tr>
+				<tr><td>171</td><td>«</td><td>&amp;#171;</td><td>&amp;laquo;</td><td>Alt + 0171 <i>OR</i> Alt + 174</td><td>Left double angle quotes</td></tr>
+				<tr><td>172</td><td>¬</td><td>&amp;#172;</td><td>&amp;not;</td><td>Alt + 0172</td><td>Not sign</td></tr>
 				<tr><td>173</td><td>­</td><td>&amp;#173;</td><td>&amp;shy;</td><td>Alt + 0173</td><td>Soft hyphen</td></tr>
+				<tr><td>174</td><td>®</td><td>&amp;#174;</td><td>&amp;reg;</td><td>Alt + 0174</td><td>Registered trade mark sign</td></tr>
 				<tr><td>175</td><td>¯</td><td>&amp;#175;</td><td>&amp;macr;</td><td>Alt + 0175</td><td>Spacing macron or overline</td></tr>
+				<tr><td>176</td><td>°</td><td>&amp;#176;</td><td>&amp;deg;</td><td>Alt + 0176</td><td>Degree sign</td></tr>
 				<tr><td>177</td><td>±</td><td>&amp;#177;</td><td>&amp;plusmn;</td><td>Alt + 0177</td><td>Plus-or-minus sign</td></tr>
 				<tr><td>178</td><td>²</td><td>&amp;#178;</td><td>&amp;sup2;</td><td>Alt + 0178</td><td>Superscript two or squared</td></tr>
 				<tr><td>179</td><td>³</td><td>&amp;#179;</td><td>&amp;sup3;</td><td>Alt + 0179</td><td>Superscript three or cubed</td></tr>
 				<tr><td>180</td><td>´</td><td>&amp;#180;</td><td>&amp;acute;</td><td>Alt + 0180</td><td>Acute accent or spacing acute</td></tr>
 				<tr><td>181</td><td>µ</td><td>&amp;#181;</td><td>&amp;micro;</td><td>Alt + 0181</td><td>Micro sign</td></tr>
-				<tr><td>182</td><td>¶</td><td>&amp;#182;</td><td>&amp;para;</td><td>Alt + 0182 <i>OR</i> Alt + 20</td><td>Pilcrow sign or paragraph sign</td></tr>
-				<tr><td>183</td><td>·</td><td>&amp;#183;</td><td>&amp;middot;</td><td>Alt + 0183</td><td>Middle dot or Georgian comma</td></tr>
-				<tr><td>184</td><td>¸</td><td>&amp;#184;</td><td>&amp;cedil;</td><td>Alt + 0184</td><td>Spacing cedilla</td></tr>
-				<tr><td>185</td><td>¹</td><td>&amp;#185;</td><td>&amp;sup1;</td><td>Alt + 0185</td><td>Superscript one</td></tr>
-				<tr><td>186</td><td>º</td><td>&amp;#186;</td><td>&amp;ordm;</td><td>Alt + 0186 <i>OR</i> Alt + 167</td><td>Masculine ordinal indicator</td></tr>
-				<tr><td>190</td><td>¾</td><td>&amp;#190;</td><td>&amp;frac34;</td><td>Alt + 0190</td><td>Fraction three quarters</td></tr>
-				<tr><td>204</td><td>Ì</td><td>&amp;#204;</td><td>&amp;Igrave;</td><td>Alt + 0204</td><td>Latin capital letter I with grave</td></tr>
-				<tr><td>210</td><td>Ò</td><td>&amp;#210;</td><td>&amp;Ograve;</td><td>Alt + 0210</td><td>Latin capital letter O with grave</td></tr>
-				<tr><td>211</td><td>Ó</td><td>&amp;#211;</td><td>&amp;Oacute;</td><td>Alt + 0211</td><td>Latin capital letter O with acute</td></tr>
-				<tr><td>212</td><td>Ô</td><td>&amp;#212;</td><td>&amp;Ocirc;</td><td>Alt + 0212</td><td>Latin capital letter O with circumflex</td></tr>
-				<tr><td>213</td><td>Õ</td><td>&amp;#213;</td><td>&amp;Otilde;</td><td>Alt + 0213</td><td>Latin capital letter O with tilde</td></tr>		
-				<tr><td>217</td><td>Ù</td><td>&amp;#217;</td><td>&amp;Ugrave;</td><td>Alt + 0217</td><td>Latin capital letter U with grave</td></tr>
-				<tr><td>218</td><td>Ú</td><td>&amp;#218;</td><td>&amp;Uacute;</td><td>Alt + 0218</td><td>Latin capital letter U with acute</td></tr>
-				<tr><td>219</td><td>Û</td><td>&amp;#219;</td><td>&amp;Ucirc;</td><td>Alt + 0219</td><td>Latin capital letter U with circumflex</td></tr>
-				<tr><td>221</td><td>Ý</td><td>&amp;#221;</td><td>&amp;Yacute;</td><td>Alt + 0221</td><td>Latin capital letter Y with acute</td></tr>
-				<tr><td>222</td><td>Þ</td><td>&amp;#222;</td><td>&amp;THORN;</td><td>Alt + 0222</td><td>Latin capital letter THORN</td></tr>
-				<tr><td>223</td><td>ß</td><td>&amp;#223;</td><td>&amp;szlig;</td><td>Alt + 0223 <i>OR</i> Alt + 225;</td><td>Latin small letter sharp s - ess-zed</td></tr>
-				<tr><td>245</td><td>õ</td><td>&amp;#245;</td><td>&amp;otilde;</td><td>Alt + 0245</td><td>Latin small letter o with tilde</td></tr>
-				<tr><td>247</td><td>÷</td><td>&amp;#247;</td><td>&amp;divide;</td><td>Alt + 0247</td><td>Division sign</td></tr>
-				<tr><td>253</td><td>ý</td><td>&amp;#253;</td><td>&amp;yacute;</td><td>Alt + 0253</td><td>Latin small letter y with acute</td></tr>
-				<tr><td>254</td><td>þ</td><td>&amp;#254;</td><td>&amp;thorn;</td><td>Alt + 0254</td><td>Latin small letter thorn</td></tr>
 				
-			</tbody>
+                
+                <tr><td>182</td><td>266</td><td>B6</td><td>10110110</td><td>¶</td><td>&amp;#182;</td><td>&amp;para;</td><td>Alt + 0182 <i>OR</i> Alt + 20</td><td>Pilcrow sign or paragraph sign</td></tr>
+				<tr><td>183</td><td>267</td><td>B7</td><td>10110111</td><td>·</td><td>&amp;#183;</td><td>&amp;middot;</td><td>Alt + 0183</td><td>Middle dot or Georgian comma</td></tr>
+				<tr><td>184</td><td>270</td><td>B8</td><td>10111000</td><td>¸</td><td>&amp;#184;</td><td>&amp;cedil;</td><td>Alt + 0184</td><td>Spacing cedilla</td></tr>
+				<tr><td>185</td><td>271</td><td>B9</td><td>10111001</td><td>¹</td><td>&amp;#185;</td><td>&amp;sup1;</td><td>Alt + 0185</td><td>Superscript one</td></tr>
+				<tr><td>186</td><td>272</td><td>BA</td><td>10111010</td><td>º</td><td>&amp;#186;</td><td>&amp;ordm;</td><td>Alt + 0186 <i>OR</i> Alt + 167</td><td>Masculine ordinal indicator</td></tr>
+				<tr><td>187</td><td>273</td><td>BB</td><td>10111011</td><td>»</td><td>&amp;#187;</td><td>&amp;raquo;</td><td>Alt + 0187 <i>OR</i> Alt + 175</td><td>Right double angle quotes</td></tr>
+				<tr><td>188</td><td>274</td><td>BC</td><td>10111100</td><td>¼</td><td>&amp;#188;</td><td>&amp;frac14;</td><td>Alt + 0188 <i>OR</i> Alt + 172</td><td>Fraction one quarter</td></tr>
+				<tr><td>189</td><td>275</td><td>BD</td><td>10111101</td><td>½</td><td>&amp;#189;</td><td>&amp;frac12;</td><td>Alt + 0189 <i>OR</i> Alt + 171</td><td>Fraction one half</td></tr>
+				<tr><td>190</td><td>276</td><td>BE</td><td>10111110</td><td>¾</td><td>&amp;#190;</td><td>&amp;frac34;</td><td>Alt + 0190</td><td>Fraction three quarters</td></tr>
+				<tr><td>191</td><td>277</td><td>BF</td><td>10111111</td><td>¿</td><td>&amp;#191;</td><td>&amp;iquest;</td><td>Alt + 0191 <i>OR</i> Alt + 168</td><td>Inverted question mark</td></tr>
+				<tr><td>192</td><td>300</td><td>C0</td><td>11000000</td><td>À</td><td>&amp;#192;</td><td>&amp;Agrave;</td><td>Alt + 0192</td><td>Latin capital letter A with grave</td></tr>
+				<tr><td>193</td><td>301</td><td>C1</td><td>11000001</td><td>Á</td><td>&amp;#193;</td><td>&amp;Aacute;</td><td>Alt + 0193</td><td>Latin capital letter A with acute</td></tr>
+				<tr><td>194</td><td>302</td><td>C2</td><td>11000010</td><td>Â</td><td>&amp;#194;</td><td>&amp;Acirc;</td><td>Alt + 0194</td><td>Latin capital letter A with circumflex</td></tr>
+				<tr><td>195</td><td>303</td><td>C3</td><td>11000011</td><td>Ã</td><td>&amp;#195;</td><td>&amp;Atilde;</td><td>Alt + 0195</td><td>Latin capital letter A with tilde</td></tr>
+				<tr><td>196</td><td>304</td><td>C4</td><td>11000100</td><td>Ä</td><td>&amp;#196;</td><td>&amp;Auml;</td><td>Alt + 0196 <i>OR</i> Alt + 142</td><td>Latin capital letter A with diaeresis</td></tr>
+				<tr><td>197</td><td>305</td><td>C5</td><td>11000101</td><td>Å</td><td>&amp;#197;</td><td>&amp;Aring;</td><td>Alt + 0197 <i>OR</i> Alt + 143</td><td>Latin capital letter A with ring above</td></tr>
+				<tr><td>198</td><td>306</td><td>C6</td><td>11000110</td><td>Æ</td><td>&amp;#198;</td><td>&amp;AElig;</td><td>Alt + 0198 <i>OR</i> Alt + 146</td><td>Latin capital letter AE</td></tr>
+				<tr><td>199</td><td>307</td><td>C7</td><td>11000111</td><td>Ç</td><td>&amp;#199;</td><td>&amp;Ccedil;</td><td>Alt + 0199 <i>OR</i> Alt + 128</td><td>Latin capital letter C with cedilla</td></tr>
+				<tr><td>200</td><td>310</td><td>C8</td><td>11001000</td><td>È</td><td>&amp;#200;</td><td>&amp;Egrave;</td><td>Alt + 0200</td><td>Latin capital letter E with grave</td></tr>
+				<tr><td>201</td><td>311</td><td>C9</td><td>11001001</td><td>É</td><td>&amp;#201;</td><td>&amp;Eacute;</td><td>Alt + 0201 <i>OR</i> Alt + 144</td><td>Latin capital letter E with acute</td></tr>
+				<tr><td>202</td><td>312</td><td>CA</td><td>11001010</td><td>Ê</td><td>&amp;#202;</td><td>&amp;Ecirc;</td><td>Alt + 0202</td><td>Latin capital letter E with circumflex</td></tr>
+				<tr><td>203</td><td>313</td><td>CB</td><td>11001011</td><td>Ë</td><td>&amp;#203;</td><td>&amp;Euml;</td><td>Alt + 0203</td><td>Latin capital letter E with diaeresis</td></tr>
+				<tr><td>204</td><td>314</td><td>CC</td><td>11001100</td><td>Ì</td><td>&amp;#204;</td><td>&amp;Igrave;</td><td>Alt + 0204</td><td>Latin capital letter I with grave</td></tr>
+				<tr><td>205</td><td>315</td><td>CD</td><td>11001101</td><td>Í</td><td>&amp;#205;</td><td>&amp;Iacute;</td><td>Alt + 0205</td><td>Latin capital letter I with acute</td></tr>
+				<tr><td>206</td><td>316</td><td>CE</td><td>11001110</td><td>Î</td><td>&amp;#206;</td><td>&amp;Icirc;</td><td>Alt + 0206</td><td>Latin capital letter I with circumflex</td></tr>
+				<tr><td>207</td><td>317</td><td>CF</td><td>11001111</td><td>Ï</td><td>&amp;#207;</td><td>&amp;Iuml;</td><td>Alt + 0207</td><td>Latin capital letter I with diaeresis</td></tr>
+				<tr><td>208</td><td>320</td><td>D0</td><td>11010000</td><td>Ð</td><td>&amp;#208;</td><td>&amp;ETH;</td><td>Alt + 0208</td><td>Latin capital letter ETH</td></tr>
+				<tr><td>209</td><td>321</td><td>D1</td><td>11010001</td><td>Ñ</td><td>&amp;#209;</td><td>&amp;Ntilde;</td><td>Alt + 0209 <i>OR</i> Alt + 165</td><td>Latin capital letter N with tilde</td></tr>
+				<tr><td>210</td><td>322</td><td>D2</td><td>11010010</td><td>Ò</td><td>&amp;#210;</td><td>&amp;Ograve;</td><td>Alt + 0210</td><td>Latin capital letter O with grave</td></tr>
+				<tr><td>211</td><td>323</td><td>D3</td><td>11010011</td><td>Ó</td><td>&amp;#211;</td><td>&amp;Oacute;</td><td>Alt + 0211</td><td>Latin capital letter O with acute</td></tr>
+				<tr><td>212</td><td>324</td><td>D4</td><td>11010100</td><td>Ô</td><td>&amp;#212;</td><td>&amp;Ocirc;</td><td>Alt + 0212</td><td>Latin capital letter O with circumflex</td></tr>
+				<tr><td>213</td><td>325</td><td>D5</td><td>11010101</td><td>Õ</td><td>&amp;#213;</td><td>&amp;Otilde;</td><td>Alt + 0213</td><td>Latin capital letter O with tilde</td></tr>
+				<tr><td>214</td><td>326</td><td>D6</td><td>11010110</td><td>Ö</td><td>&amp;#214;</td><td>&amp;Ouml;</td><td>Alt + 0214 <i>OR</i> Alt + 153</td><td>Latin capital letter O with diaeresis</td></tr>
+				<tr><td>215</td><td>327</td><td>D7</td><td>11010111</td><td>×</td><td>&amp;#215;</td><td>&amp;times;</td><td>Alt + 0215</td><td>Multiplication sign</td></tr>
+				<tr><td>216</td><td>330</td><td>D8</td><td>11011000</td><td>Ø</td><td>&amp;#216;</td><td>&amp;Oslash;</td><td>Alt + 0216</td><td>Latin capital letter O with slash</td></tr>
+				<tr><td>217</td><td>331</td><td>D9</td><td>11011001</td><td>Ù</td><td>&amp;#217;</td><td>&amp;Ugrave;</td><td>Alt + 0217</td><td>Latin capital letter U with grave</td></tr>
+				<tr><td>218</td><td>332</td><td>DA</td><td>11011010</td><td>Ú</td><td>&amp;#218;</td><td>&amp;Uacute;</td><td>Alt + 0218</td><td>Latin capital letter U with acute</td></tr>
+				<tr><td>219</td><td>333</td><td>DB</td><td>11011011</td><td>Û</td><td>&amp;#219;</td><td>&amp;Ucirc;</td><td>Alt + 0219</td><td>Latin capital letter U with circumflex</td></tr>
+				<tr><td>220</td><td>334</td><td>DC</td><td>11011100</td><td>Ü</td><td>&amp;#220;</td><td>&amp;Uuml;</td><td>Alt + 0220 <i>OR</i> Alt + 154</td><td>Latin capital letter U with diaeresis</td></tr>
+				<tr><td>221</td><td>335</td><td>DD</td><td>11011101</td><td>Ý</td><td>&amp;#221;</td><td>&amp;Yacute;</td><td>Alt + 0221</td><td>Latin capital letter Y with acute</td></tr>
+				<tr><td>222</td><td>336</td><td>DE</td><td>11011110</td><td>Þ</td><td>&amp;#222;</td><td>&amp;THORN;</td><td>Alt + 0222</td><td>Latin capital letter THORN</td></tr>
+				<tr><td>223</td><td>337</td><td>DF</td><td>11011111</td><td>ß</td><td>&amp;#223;</td><td>&amp;szlig;</td><td>Alt + 0223 <i>OR</i> Alt + 225;</td><td>Latin small letter sharp s - ess-zed</td></tr>
+				<tr><td>224</td><td>340</td><td>E0</td><td>11100000</td><td>à</td><td>&amp;#224;</td><td>&amp;agrave;</td><td>Alt + 0224 <i>OR</i> Alt + 133</td><td>Latin small letter a with grave</td></tr>
+				<tr><td>225</td><td>341</td><td>E1</td><td>11100001</td><td>á</td><td>&amp;#225;</td><td>&amp;aacute;</td><td>Alt + 0225 <i>OR</i> Alt + 160</td><td>Latin small letter a with acute</td></tr>
+				<tr><td>226</td><td>342</td><td>E2</td><td>11100010</td><td>â</td><td>&amp;#226;</td><td>&amp;acirc;</td><td>Alt + 0226 <i>OR</i> Alt + 131</td><td>Latin small letter a with circumflex</td></tr>
+				<tr><td>227</td><td>343</td><td>E3</td><td>11100011</td><td>ã</td><td>&amp;#227;</td><td>&amp;atilde;</td><td>Alt + 0227</td><td>Latin small letter a with tilde</td></tr>
+				<tr><td>228</td><td>344</td><td>E4</td><td>11100100</td><td>ä</td><td>&amp;#228;</td><td>&amp;auml;</td><td>Alt + 0228 <i>OR</i> Alt + 132</td><td>Latin small letter a with diaeresis</td></tr>
+				<tr><td>229</td><td>345</td><td>E5</td><td>11100101</td><td>å</td><td>&amp;#229;</td><td>&amp;aring;</td><td>Alt + 0229 <i>OR</i> Alt + 134</td><td>Latin small letter a with ring above</td></tr>
+				<tr><td>230</td><td>346</td><td>E6</td><td>11100110</td><td>æ</td><td>&amp;#230;</td><td>&amp;aelig;</td><td>Alt + 0230 <i>OR</i> Alt + 145</td><td>Latin small letter ae</td></tr>
+				<tr><td>231</td><td>347</td><td>E7</td><td>11100111</td><td>ç</td><td>&amp;#231;</td><td>&amp;ccedil;</td><td>Alt + 0231 <i>OR</i> Alt + 135</td><td>Latin small letter c with cedilla</td></tr>
+				<tr><td>232</td><td>350</td><td>E8</td><td>11101000</td><td>è</td><td>&amp;#232;</td><td>&amp;egrave;</td><td>Alt + 0232 <i>OR</i> Alt + 138</td><td>Latin small letter e with grave</td></tr>
+				<tr><td>233</td><td>351</td><td>E9</td><td>11101001</td><td>é</td><td>&amp;#233;</td><td>&amp;eacute;</td><td>Alt + 0233 <i>OR</i> Alt + 130</td><td>Latin small letter e with acute</td></tr>
+				<tr><td>234</td><td>352</td><td>EA</td><td>11101010</td><td>ê</td><td>&amp;#234;</td><td>&amp;ecirc;</td><td>Alt + 0234 <i>OR</i> Alt + 136</td><td>Latin small letter e with circumflex</td></tr>
+				<tr><td>235</td><td>353</td><td>EB</td><td>11101011</td><td>ë</td><td>&amp;#235;</td><td>&amp;euml;</td><td>Alt + 0235 <i>OR</i> Alt + 137</td><td>Latin small letter e with diaeresis</td></tr>
+				<tr><td>236</td><td>354</td><td>EC</td><td>11101100</td><td>ì</td><td>&amp;#236;</td><td>&amp;igrave;</td><td>Alt + 0236 <i>OR</i> Alt + 141</td><td>Latin small letter i with grave</td></tr>
+				<tr><td>237</td><td>355</td><td>ED</td><td>11101101</td><td>í</td><td>&amp;#237;</td><td>&amp;iacute;</td><td>Alt + 0237 <i>OR</i> Alt + 161</td><td>Latin small letter i with acute</td></tr>
+				<tr><td>238</td><td>356</td><td>EE</td><td>11101110</td><td>î</td><td>&amp;#238;</td><td>&amp;icirc;</td><td>Alt + 0238 <i>OR</i> Alt + 140</td><td>Latin small letter i with circumflex</td></tr>
+				<tr><td>239</td><td>357</td><td>EF</td><td>11101111</td><td>ï</td><td>&amp;#239;</td><td>&amp;iuml;</td><td>Alt + 0239 <i>OR</i> Alt + 139</td><td>Latin small letter i with diaeresis</td></tr>
+				<tr><td>240</td><td>360</td><td>F0</td><td>11110000</td><td>ð</td><td>&amp;#240;</td><td>&amp;eth;</td><td>Alt + 0240</td><td>Latin small letter eth</td></tr>
+				<tr><td>241</td><td>361</td><td>F1</td><td>11110001</td><td>ñ</td><td>&amp;#241;</td><td>&amp;ntilde;</td><td>Alt + 0241 <i>OR</i> Alt + 164</td><td>Latin small letter n with tilde</td></tr>
+				<tr><td>242</td><td>362</td><td>F2</td><td>11110010</td><td>ò</td><td>&amp;#242;</td><td>&amp;ograve;</td><td>Alt + 0242 <i>OR</i> Alt + 149</td><td>Latin small letter o with grave</td></tr>
+				<tr><td>243</td><td>363</td><td>F3</td><td>11110011</td><td>ó</td><td>&amp;#243;</td><td>&amp;oacute;</td><td>Alt + 0243 <i>OR</i> Alt + 162</td><td>Latin small letter o with acute</td></tr>
+				<tr><td>244</td><td>364</td><td>F4</td><td>11110100</td><td>ô</td><td>&amp;#244;</td><td>&amp;ocirc;</td><td>Alt + 0244 <i>OR</i> Alt + 147</td><td>Latin small letter o with circumflex</td></tr>
+				<tr><td>245</td><td>365</td><td>F5</td><td>11110101</td><td>õ</td><td>&amp;#245;</td><td>&amp;otilde;</td><td>Alt + 0245</td><td>Latin small letter o with tilde</td></tr>
+				<tr><td>246</td><td>366</td><td>F6</td><td>11110110</td><td>ö</td><td>&amp;#246;</td><td>&amp;ouml;</td><td>Alt + 0246 <i>OR</i> Alt + 148</td><td>Latin small letter o with diaeresis</td></tr>
+				<tr><td>247</td><td>367</td><td>F7</td><td>11110111</td><td>÷</td><td>&amp;#247;</td><td>&amp;divide;</td><td>Alt + 0247</td><td>Division sign</td></tr>
+				<tr><td>248</td><td>370</td><td>F8</td><td>11111000</td><td>ø</td><td>&amp;#248;</td><td>&amp;oslash;</td><td>Alt + 0248</td><td>Latin small letter o with slash</td></tr>
+				<tr><td>249</td><td>371</td><td>F9</td><td>11111001</td><td>ù</td><td>&amp;#249;</td><td>&amp;ugrave;</td><td>Alt + 0249 <i>OR</i> Alt + 151</td><td>Latin small letter u with grave</td></tr>
+				<tr><td>250</td><td>372</td><td>FA</td><td>11111010</td><td>ú</td><td>&amp;#250;</td><td>&amp;uacute;</td><td>Alt + 0250 <i>OR</i> Alt + 163</td><td>Latin small letter u with acute</td></tr>
+				<tr><td>251</td><td>373</td><td>FB</td><td>11111011</td><td>û</td><td>&amp;#251;</td><td>&amp;ucirc;</td><td>Alt + 0251 <i>OR</i> Alt + 150</td><td>Latin small letter u with circumflex</td></tr>
+				<tr><td>252</td><td>374</td><td>FC</td><td>11111100</td><td>ü</td><td>&amp;#252;</td><td>&amp;uuml;</td><td>Alt + 0252 <i>OR</i> Alt + 129</td><td>Latin small letter u with diaeresis</td></tr>
+				<tr><td>253</td><td>375</td><td>FD</td><td>11111101</td><td>ý</td><td>&amp;#253;</td><td>&amp;yacute;</td><td>Alt + 0253</td><td>Latin small letter y with acute</td></tr>
+				<tr><td>254</td><td>376</td><td>FE</td><td>11111110</td><td>þ</td><td>&amp;#254;</td><td>&amp;thorn;</td><td>Alt + 0254</td><td>Latin small letter thorn</td></tr>
+				<tr><td>255</td><td>377</td><td>FF</td><td>11111111</td><td>ÿ</td><td>&amp;#255;</td><td>&amp;yuml;</td><td>Alt + 0255 <i>OR</i> Alt + 152</td><td>Latin small letter y with diaeresis</td></tr>
+            </tbody>
 		</table>
     );
 }
