@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Body = () => {
+const AsciiTable = () => {
     return (
         <table>
 			<thead>
@@ -410,4 +410,4 @@ const Body = () => {
     );
 }
 
-export default Body;
+export default AsciiTable;
