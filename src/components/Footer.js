@@ -1,17 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// const Footer = () => {
-//     return (
-//         <div className='footer'>
-//             <div>About Us | Contact Us | Privacy Policy | Terms of Service</div>
-//             <div>&copy; {new Date().getFullYear()} asciicode.ws</div>
-//             <div>PetersonDigital</div>
-//         </div>
-//     );
-// }
-
-
 const Footer = () => {
     return (
         <div className='footer'>
@@ -25,7 +14,5 @@ const Footer = () => {
         </div>
     );
 }
-
-
 
 export default Footer;
