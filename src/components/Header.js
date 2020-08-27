@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Home from './Home';
-import Contact from './Contact';
-import About from './About';
-import TermsOfService from './TermsOfService';
-import PrivacyPolicy from './PrivacyPolicy';
-import NoMatch from './NoMatch';
+// import Home from './Home';
+// import Contact from './Contact';
+// import About from './About';
+// import TermsOfService from './TermsOfService';
+// import PrivacyPolicy from './PrivacyPolicy';
+// import NoMatch from './NoMatch';
 
 // import Contact from './Contact';
 // import About from './About';

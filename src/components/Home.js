@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 import AsciiTable from './AsciiTable';
 
 const Home = () => {
