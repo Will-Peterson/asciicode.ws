@@ -51,14 +51,14 @@ import * as ReactBootStrap from 'react-bootstrap';
 const Header = () => {
   return (
     <ReactBootStrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-    <ReactBootStrap.Navbar.Brand href="#home">ASCIICode.ws</ReactBootStrap.Navbar.Brand>
+    <ReactBootStrap.Navbar.Brand href="/">ASCIICode.ws</ReactBootStrap.Navbar.Brand>
     <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
         <ReactBootStrap.Nav className="mr-auto">
-          <ReactBootStrap.Nav.Link href="#about">About Us</ReactBootStrap.Nav.Link>
-          <ReactBootStrap.Nav.Link to='/contact' href="#contact">Contact Us</ReactBootStrap.Nav.Link>
-          <ReactBootStrap.Nav.Link href="#terms-of-service">Terms of Service</ReactBootStrap.Nav.Link>
-          <ReactBootStrap.Nav.Link href="#privacy-policy">Privacy Policy</ReactBootStrap.Nav.Link>
+          <ReactBootStrap.Nav.Link href="about">About Us</ReactBootStrap.Nav.Link>
+          <ReactBootStrap.Nav.Link href="contact">Contact Us</ReactBootStrap.Nav.Link>
+          <ReactBootStrap.Nav.Link href="terms-of-service">Terms of Service</ReactBootStrap.Nav.Link>
+          <ReactBootStrap.Nav.Link href="privacy-policy">Privacy Policy</ReactBootStrap.Nav.Link>
         </ReactBootStrap.Nav>
         
     </ReactBootStrap.Navbar.Collapse>
