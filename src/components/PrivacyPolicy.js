@@ -178,11 +178,11 @@ const PrivacyPolicy = () => {
             <p>
                 <strong>CAN SPAM Act</strong>
             </p>
-            <P>
+            <p>
                 The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for 
                 commercial messages, gives recipients the right to have emails stopped from being sent to them, 
                 and spells out tough penalties for violations.
-            </P>
+            </p>
             <p>
                 We do not collect your email address.
             </p>
