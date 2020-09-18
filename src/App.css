@@ -3,6 +3,17 @@
   background-color: #f8f9fa;
 }
 
+.layout {
+	background-image: url('./assets/images/code-background.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.parameter {
+	margin: 0 5%;
+}
+
 .footer {
   background-color: #343a40;
   max-width: 100%;
@@ -39,22 +50,27 @@ tr:nth-of-type(odd) {
 	background: #d6d6d6;
 }
 
+tr:nth-of-type(even) {
+	background: #fff;
+}
+
 th {
 	background:#333;
 	color: white;
 	font-weight: bold;
+	text-align: center !important;
 }
 
 td {
 	font-size: 100%;
 	line-height :1.5;
 	font-family: Verdana;
+	text-align: left;
 }
 
 td, th {
 	padding: 6px;
 	border: 1px solid #CCC;
-	text-align: left;
 }
 
 @media not screen and (min-width:320px), (min-device-width: 320px) and (max-width: 663px), (max-device-width: 663px) {
