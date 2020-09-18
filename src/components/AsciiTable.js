@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 
 const AsciiTable = () => {
     return (
@@ -6,7 +7,6 @@ const AsciiTable = () => {
 			<thead>
 				<tr>
 					<th>DEC</th>
-					
 					<th>Symbol</th>
 					<th>HTML Number</th>
 					<th>HTML Name</th>

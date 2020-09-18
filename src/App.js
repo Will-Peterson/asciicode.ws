@@ -12,18 +12,20 @@ import NoMatch from './components/NoMatch';
 
 const App = () => {
     return (
-        <React.Fragment>
-            <Header />
-                <Switch>
-                    <Route exact path='/' component={Home} />
-                    <Route path='/about' component={About} />
-                    <Route path='/terms-of-service' component={TermsOfService} />
-                    <Route path='/privacy-policy' component={PrivacyPolicy} />
-                    <Route path='/contact' component={Contact} />
-                    <Route component={NoMatch} />
-                </Switch>
-            <Footer />
-        </React.Fragment>
+        <div className='layout'>
+            <div className='parameter'>
+                <Header />
+                    <Switch>
+                        <Route exact path='/' component={Home} />
+                        <Route path='/about' component={About} />
+                        <Route path='/terms-of-service' component={TermsOfService} />
+                        <Route path='/privacy-policy' component={PrivacyPolicy} />
+                        <Route path='/contact' component={Contact} />
+                        <Route component={NoMatch} />
+                    </Switch>
+                <Footer />
+            </div>
+        </div>
     );
 }
 
