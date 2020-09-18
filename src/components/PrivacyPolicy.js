@@ -1,8 +1,9 @@
 import React from 'react';
+import '../App.css';
 
 const PrivacyPolicy = () => {
     return (
-        <React.Fragment>
+        <div className='container-privacy'>
             <h2>PRIVACY POLICY</h2>
             <p>
                 This privacy policy has been compiled to better serve those who are concerned with how their 'Personally
@@ -250,7 +251,7 @@ const PrivacyPolicy = () => {
                 California<br/>
                 Last Edited on 2020-09-11
             </p>
-        </React.Fragment>
+        </div>
     );
 }
 

@@ -1,10 +1,11 @@
 import React from 'react';
+import '../App.css';
 
 const About = () => {
     return (
-        <React.Fragment>
+        <div className='container-about'>
             <h2>ABOUT</h2>
-        </React.Fragment>
+        </div>
     );
 }
 

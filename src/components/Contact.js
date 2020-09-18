@@ -1,10 +1,11 @@
 import React from 'react';
+import '../App.css';
 
 const Contact = () => {
     return (
-        <React.Fragment>
+        <div className='container-contact'>
             <h2>CONTACT</h2>
-        </React.Fragment>
+        </div>
     );
 }
 

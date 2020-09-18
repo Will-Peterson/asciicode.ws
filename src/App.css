@@ -10,6 +10,26 @@
 	background-size: 100%;
 }
 
+.container-about {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.container-contact {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.container-terms {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.container-privacy {
+	background-color: #fff;
+	padding: 20px;
+}
+
 .parameter {
 	margin: 0 5%;
 }
