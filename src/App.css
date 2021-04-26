@@ -1,13 +1,10 @@
-/* Global */
-.App {
-  background-color: #f8f9fa;
+body {
+  background: url('./assets/images/code-background.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
-.layout {
-	background-image: url('./assets/images/code-background.jpg');
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: 100%;
+.App {
+  background-color: #f8f9fa;
 }
 
 .container-about {
@@ -30,7 +27,7 @@
 	padding: 20px;
 }
 
-.parameter {
+.perimeter {
 	margin: 0 5%;
 }
 
