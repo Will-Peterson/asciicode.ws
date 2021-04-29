@@ -1,0 +1,13 @@
+{
+  "forms": {
+    "AsciiCodeWs": {
+      "name": "AsciiCodeWs",
+      "actions": [{ "type": "email", "to": "william.from.ca@gmail.com" }],
+      "fields": {
+        "email": {
+          "required": true
+        }
+      }
+    }
+  }
+}
