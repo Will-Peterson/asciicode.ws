@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-const TermsOfService = () => {
+const TermsAndConditions = () => {
     return (
         <div className='container-terms'>
             <h2>TERMS AND CONDITIONS</h2>
@@ -70,4 +70,4 @@ const TermsOfService = () => {
     );
 }
 
-export default TermsOfService;
+export default TermsAndConditions;

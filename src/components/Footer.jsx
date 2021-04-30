@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='footer'>
             <Link to='/about'>About Us</Link> |&nbsp;
             <Link to='/contact'>Contact Us</Link> |&nbsp;
-            <Link to='/terms-of-service'>Terms of Service</Link> |&nbsp;
+            <Link to='/terms-and-conditions'>Terms and Conditions</Link> |&nbsp;
             <Link to='/privacy-policy'>Privacy Policy</Link>
             <div>&copy; {new Date().getFullYear()}&nbsp;
             <Link to='/'>asciicode.ws</Link></div>

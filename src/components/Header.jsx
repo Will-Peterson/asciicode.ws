@@ -57,7 +57,7 @@ const Header = () => {
         <ReactBootStrap.Nav className="mr-auto">
           <ReactBootStrap.Nav.Link href="about">About Us</ReactBootStrap.Nav.Link>
           <ReactBootStrap.Nav.Link href="contact">Contact Us</ReactBootStrap.Nav.Link>
-          <ReactBootStrap.Nav.Link href="terms-of-service">Terms of Service</ReactBootStrap.Nav.Link>
+          <ReactBootStrap.Nav.Link href="terms-and-conditions">Terms and Conditions</ReactBootStrap.Nav.Link>
           <ReactBootStrap.Nav.Link href="privacy-policy">Privacy Policy</ReactBootStrap.Nav.Link>
         </ReactBootStrap.Nav>
         
@@ -65,6 +65,5 @@ const Header = () => {
   </ReactBootStrap.Navbar>
   );
 }
-
 
 export default Header;
