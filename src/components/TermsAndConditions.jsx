@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import '../App.css';
 
 const TermsAndConditions = () => {
@@ -64,7 +65,12 @@ const TermsAndConditions = () => {
               </strong>
             </p>
             <p>
-              If you have any questions about these Terms, please <a href='#'>contact us</a>.
+              If you have any questions about these Terms, please <Link to='contact'>contact us</Link>.
+            </p>
+            <p>
+              asciicode.ws<br/>
+              California<br/>
+              Last Edited on 2021-05-05
             </p>
         </div>
     );
