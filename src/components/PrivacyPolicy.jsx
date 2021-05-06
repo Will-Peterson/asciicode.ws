@@ -64,8 +64,8 @@ const PrivacyPolicy = () => {
             </strong></p>
             <p>
                 Google's advertising requirements can be summed up by Google's Advertising Principles. They are put in 
-                place to provide a positive experience for users. Visit <a 
-                href="https://https://support.google.com/adspolicy/answer/6008942"
+                place to provide a positive experience for users. Visit <a target="_blank" 
+                href="https://support.google.com/adspolicy/answer/6008942?hl=en"
                 >Google Adwords Policy</a>.
             </p>
             <p>
@@ -104,12 +104,12 @@ const PrivacyPolicy = () => {
                 California Online Privacy Protection Act
             </strong></p>
             <p>
-                <a href="https://consumercal.org/about-cfc/cfc-education-foundation/california-online-privacy-protection-act-caloppa-3/#sthash.0FdRbT51.dpuf">
-                CalOPPA</a> is the first state law in the nation to require commercial websites and online services to post 
-                a privacy policy. The law's reach stretches well beyond California to require any person or company in 
-                the United States (and conceivably the world) that operates websites collecting Personally Identifiable 
-                Information from California consumers to post a conspicuous privacy policy on its website stating 
-                exactly the information being collected and those individuals or companies with whom it is being shared.
+                <a href="https://consumercal.org/about-cfc/cfc-education-foundation/california-online-privacy-protection-act-caloppa-3/#sthash.0FdRbT51.dpuf"
+                target="_blank">CalOPPA</a> is the first state law in the nation to require commercial websites and online 
+                services to post a privacy policy. The law's reach stretches well beyond California to require any person 
+                or company in the United States (and conceivably the world) that operates websites collecting Personally 
+                Identifiable Information from California consumers to post a conspicuous privacy policy on its website 
+                stating exactly the information being collected and those individuals or companies with whom it is being shared.
             </p>
             <p>
                 <strong>According to CalOPPA, we agree to the following:</strong>
@@ -139,10 +139,11 @@ const PrivacyPolicy = () => {
             </p>
             <p>
                 When it comes to the collection of personal information from children under the age of 13 years old, 
-                the <a href="https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/childrens-online-privacy-protection-rule">
-                Children's Online Privacy Protection Act (COPPA)</a> puts parents in control. The Federal Trade 
-                Commission, United States' consumer protection agency, enforces the COPPA Rule, which spells out 
-                operators of websites and online services must do to protect children's privacy and safety online.
+                the <a href="https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/childrens-online-privacy-protection-rule"
+                target="_blank">Children's Online Privacy Protection Act (COPPA)</a> puts parents in control. The 
+                Federal Trade Commission, United States' consumer protection agency, enforces the COPPA Rule, which 
+                spells out operators of websites and online services must do to protect children's privacy and safety 
+                online.
             </p>
             <p>
                 We do not specifically market to children under the age of 13 years old.
@@ -180,15 +181,18 @@ const PrivacyPolicy = () => {
                 <strong>CAN SPAM Act</strong>
             </p>
             <p>
-                The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for 
-                commercial messages, gives recipients the right to have emails stopped from being sent to them, 
-                and spells out tough penalties for violations.
+                The <a href="https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business"
+                target="_blank">CAN-SPAM Act</a> is a law that sets the rules for commercial email, establishes 
+                requirements for commercial messages, gives recipients the right to have emails stopped from being 
+                sent to them, and spells out tough penalties for violations.
             </p>
             <p>
                 We do not collect your email address.
             </p>
             <p>
-                <strong>General Data Protection Regulation (GDPR)</strong>
+                <strong>General Data Protection Regulation (<a href="https://gdpr.eu/what-is-gdpr/" target="_blank">GDPR
+                  </a>)
+                </strong>
             </p>
             <p>
                 We are a Data Controller of your information.
