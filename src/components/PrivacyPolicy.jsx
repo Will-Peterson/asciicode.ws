@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 const PrivacyPolicy = () => {
@@ -10,7 +11,7 @@ const PrivacyPolicy = () => {
                 Identifiable Information' (PPI) is being used online. PPI, as described in US privacy law and information 
                 security, is information that can be used on its own or with other information to identify, contact, or 
                 to identify an individual in context. Please read our privacy policy carefully to get a clear understanding 
-                of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance 
+                of how we collect, use, protect, or otherwise handle your Personally Identifiable Information in accordance 
                 with our website.
             </p>
             <p><strong>
@@ -64,7 +65,7 @@ const PrivacyPolicy = () => {
             <p>
                 Google's advertising requirements can be summed up by Google's Advertising Principles. They are put in 
                 place to provide a positive experience for users. Visit <a 
-                href="https://support.google.com/adspolicy/answer/6008942?hl=en&visit_id=637353958878594801-431248692&rd=1"
+                href="https://https://support.google.com/adspolicy/answer/6008942"
                 >Google Adwords Policy</a>.
             </p>
             <p>
@@ -103,14 +104,12 @@ const PrivacyPolicy = () => {
                 California Online Privacy Protection Act
             </strong></p>
             <p>
-                CalOPPA is the first state law in the nation to require commercial websites and online services to post 
+                <a href="https://consumercal.org/about-cfc/cfc-education-foundation/california-online-privacy-protection-act-caloppa-3/#sthash.0FdRbT51.dpuf">
+                CalOPPA</a> is the first state law in the nation to require commercial websites and online services to post 
                 a privacy policy. The law's reach stretches well beyond California to require any person or company in 
                 the United States (and conceivably the world) that operates websites collecting Personally Identifiable 
                 Information from California consumers to post a conspicuous privacy policy on its website stating 
-                exactly the information being collected and those individuals or companies with whom it is being shared. 
-                - See more at: 
-                <a href="https://consumercal.org/about-cfc/cfc-education-foundation/california-online-privacy-protection-act-caloppa-3/#sthash.0FdRbT51.dpuf">
-                California Online Privacy Protection Act</a>.
+                exactly the information being collected and those individuals or companies with whom it is being shared.
             </p>
             <p>
                 <strong>According to CalOPPA, we agree to the following:</strong>
@@ -140,7 +139,8 @@ const PrivacyPolicy = () => {
             </p>
             <p>
                 When it comes to the collection of personal information from children under the age of 13 years old, 
-                the Children's Online Privacy Protection Act (COPPA) puts parents in control. The Federal Trade 
+                the <a href="https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/childrens-online-privacy-protection-rule">
+                Children's Online Privacy Protection Act (COPPA)</a> puts parents in control. The Federal Trade 
                 Commission, United States' consumer protection agency, enforces the COPPA Rule, which spells out 
                 operators of websites and online services must do to protect children's privacy and safety online.
             </p>
@@ -212,7 +212,7 @@ const PrivacyPolicy = () => {
                 necessary to comply with our legal obligations, resolve disputes, and enforce our policies. 
                 If you are a resident of the European Economic Area (EEA), you have certain data protection 
                 rights. If you wish to be informed what Personal Information we hold about you and if you 
-                want it to be removed from our systems, please <a href="#">contact us</a>.
+                want it to be removed from our systems, please <Link to="contact">contact us</Link>.
             </p>
             <p>
                 In certain circumstances, you have the following data protection rights:
@@ -243,13 +243,13 @@ const PrivacyPolicy = () => {
                 <strong>Contacting us</strong>
             </p>
             <p>
-                If there are any questions regarding this privacy policy, you may contact us using the <a 
-                href="#">Contact Us</a> page.
+                If there are any questions regarding this privacy policy, you may contact us using the <Link 
+                to='contact'>Contact Us</Link> page.
             </p>
             <p>
                 asciicode.ws<br/>
                 California<br/>
-                Last Edited on 2020-09-11
+                Last Edited on 2021-05-05
             </p>
         </div>
     );
