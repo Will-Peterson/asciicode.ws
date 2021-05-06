@@ -3,6 +3,53 @@ body {
   background-size: cover;
 }
 
+/*  404 page */
+.no-match-container {
+  position: relative;
+  display: block;
+}
+
+.no-match-container:before {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.no-match-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.oops {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+}
+
+.home-button {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+}
+
+
+
+
+
+
+
 .App {
   background-color: #f8f9fa;
 }
