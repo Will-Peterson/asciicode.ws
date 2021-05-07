@@ -9,22 +9,23 @@ import TermsAndConditions from './components/TermsAndConditions';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Contact from './components/Contact';
 import NoMatch from './components/NoMatch';
+import Container from 'react-bootstrap/Container';
 
 const App = () => {
-    return (
-      <div className='perimeter'>
-          <Header />
-              <Switch>
-                  <Route exact path='/' component={Home} />
-                  <Route path='/about' component={About} />
-                  <Route path='/terms-and-conditions' component={TermsAndConditions} />
-                  <Route path='/privacy-policy' component={PrivacyPolicy} />
-                  <Route path='/contact' component={Contact} />
-                  <Route component={NoMatch} />
-              </Switch>
-          <Footer />
-      </div>
-    );
+  return (
+    <Container fluid>
+      <Header />
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/about' component={About} />
+        <Route path='/terms-and-conditions' component={TermsAndConditions} />
+        <Route path='/privacy-policy' component={PrivacyPolicy} />
+        <Route path='/contact' component={Contact} />
+        <Route component={NoMatch} />
+      </Switch>
+      <Footer />
+    </Container>
+  );
 }
 
 export default App;
