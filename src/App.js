@@ -1,15 +1,17 @@
 import React from 'react';
-import './App.css';
+
 import { Route, Switch } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './components/Home';
+
+import './App.css';
 import About from './components/About';
-import TermsAndConditions from './components/TermsAndConditions';
-import PrivacyPolicy from './components/PrivacyPolicy';
 import Contact from './components/Contact';
-import NoMatch from './components/NoMatch';
 import Container from 'react-bootstrap/Container';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Home from './components/Home';
+import NoMatch from './components/NoMatch';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import TermsAndConditions from './components/TermsAndConditions';
 
 const App = () => {
   return (
