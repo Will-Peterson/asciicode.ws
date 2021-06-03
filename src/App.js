@@ -3,7 +3,7 @@ import React from 'react';
 import { Route, Switch, Link } from 'react-router-dom';
 
 import './App.css';
-import About from './components/About';
+// import About from './components/About';
 import Contact from './components/Contact';
 import Container from 'react-bootstrap/Container';
 import Footer from './components/Footer';
@@ -30,7 +30,7 @@ const App = () => {
         our <Link to='privacy-policy'>privacy policy</Link> for more.</CookieConsent>
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route path='/about' component={About} />
+        {/* <Route path='/about' component={About} /> */}
         <Route path='/terms-and-conditions' component={TermsAndConditions} />
         <Route path='/privacy-policy' component={PrivacyPolicy} />
         <Route path='/contact' component={Contact} />

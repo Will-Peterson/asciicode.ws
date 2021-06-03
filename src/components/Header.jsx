@@ -16,9 +16,9 @@ const Header = () => {
       <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
         <ReactBootStrap.Nav className="mr-auto">
-          <ReactBootStrap.Nav.Link href="about">
+          {/* <ReactBootStrap.Nav.Link href="about">
             About Us
-          </ReactBootStrap.Nav.Link>
+          </ReactBootStrap.Nav.Link> */}
           <ReactBootStrap.Nav.Link href="contact">
             Contact Us
           </ReactBootStrap.Nav.Link>

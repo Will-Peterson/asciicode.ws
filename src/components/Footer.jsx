@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer">
-      <Link to="/about">About Us</Link> |&nbsp;
+      {/* <Link to="/about">About Us</Link> |&nbsp; */}
       <Link to="/contact">Contact Us</Link> |&nbsp;
       <Link to="/terms-and-conditions">Terms and Conditions</Link> |&nbsp;
       <Link to="/privacy-policy">Privacy Policy</Link>
