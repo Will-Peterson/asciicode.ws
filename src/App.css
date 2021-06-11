@@ -1,6 +1,5 @@
 body {
-  background: url('./assets/images/code-background.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background-color: #343a40;
 }
 
 /*  404 page */
