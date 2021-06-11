@@ -9,6 +9,8 @@ const Header = () => {
       expand="lg"
       bg="dark"
       variant="dark"
+      className='m-5'
+      // style={{width: '100%'}}
     >
       <ReactBootStrap.Navbar.Brand href="/">
         ASCIICode.ws

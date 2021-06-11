@@ -4,6 +4,7 @@ import "../App.css";
 
 const AsciiTable = () => {
   return (
+    <div className='ascii-table'>
     <table>
       <thead>
         <tr>
@@ -2353,6 +2354,7 @@ const AsciiTable = () => {
         </tr>
       </tbody>
     </table>
+    </div>
   );
 };
 

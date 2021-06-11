@@ -54,32 +54,52 @@ body {
 }
 
 .container-about {
-	background-color: #fff;
+	background-color: whitesmoke;
 	padding: 20px;
+  margin: 0 10vw;
 }
 
 .container-contact {
-	background-color: #fff;
-	padding: 20px;
+	background-color: whitesmoke;
+  padding: 5%;
+  border-radius: 5px;
+  margin: 0 10vw;
 }
 
 .container-terms {
-	background-color: #fff;
-	padding: 20px;
+	background-color: whitesmoke;
+	padding: 5%;
+  border-radius: 5px;
+  margin: 0 10vw;
 }
 
 .container-privacy {
-	background-color: #fff;
-	padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 5%;
+  margin: 0 10vw;
+}
+
+.container-contact h2 {
+  margin-bottom: 50px;
+}
+
+.container-terms h2 {
+  margin-bottom: 50px;
+}
+
+.container-privacy h2 {
+  margin-bottom: 50px;
 }
 
 .perimeter {
-	margin: 0 5%;
+  margin: 0 5%;
 }
 
 .footer {
   background-color: #343a40;
   max-width: 100%;
+  margin: 50px 0;
   color: white;
   text-align: center;
 }
@@ -103,9 +123,16 @@ footer dark theme
 background-color: #343a40;
 */
 
+
+/* ascii table */
+.ascii-table {
+  /* width: 100%; */
+} 
+
 table {
+  width: 85%;
+  margin: auto;
   border-spacing: 0;
-	width: 100%;
 	border-collapse: collapse;
 }
 
