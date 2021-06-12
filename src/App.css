@@ -43,10 +43,10 @@ body {
   text-align: center;
 }
 
-
-
-
-
+.link-hover-color:hover,
+.link-hover-color:focus {
+  color: khaki !important;
+}
 
 
 .App {
@@ -111,7 +111,7 @@ body {
 
 .footer a:hover {
 	color: khaki;
-	font-weight: bolder;
+	/* font-weight: bolder; */
 	text-decoration: none;
 }
 

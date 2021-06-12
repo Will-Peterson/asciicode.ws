@@ -6,11 +6,10 @@ const Header = () => {
   return (
     <ReactBootStrap.Navbar
       collapseOnSelect
-      expand="lg"
+      expand="md"
       bg="dark"
       variant="dark"
-      className='m-5'
-      // style={{width: '100%'}}
+      className='m-4'
     >
       <ReactBootStrap.Navbar.Brand href="/">
         ASCIICode.ws
@@ -18,16 +17,16 @@ const Header = () => {
       <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
         <ReactBootStrap.Nav className="mr-auto">
-          {/* <ReactBootStrap.Nav.Link href="about">
+          {/* <ReactBootStrap.Nav.Link href="about" className='link-hover-color'>
             About Us
           </ReactBootStrap.Nav.Link> */}
-          <ReactBootStrap.Nav.Link href="contact">
+          <ReactBootStrap.Nav.Link href="contact" className='link-hover-color'>
             Contact Us
           </ReactBootStrap.Nav.Link>
-          <ReactBootStrap.Nav.Link href="terms-and-conditions">
+          <ReactBootStrap.Nav.Link href="terms-and-conditions" className='link-hover-color'>
             Terms and Conditions
           </ReactBootStrap.Nav.Link>
-          <ReactBootStrap.Nav.Link href="privacy-policy">
+          <ReactBootStrap.Nav.Link href="privacy-policy" className='link-hover-color'>
             Privacy Policy
           </ReactBootStrap.Nav.Link>
         </ReactBootStrap.Nav>
