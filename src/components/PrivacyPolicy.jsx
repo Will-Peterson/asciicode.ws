@@ -79,8 +79,9 @@ const PrivacyPolicy = () => {
         Advertising Principles. They are put in place to provide a positive
         experience for users. Visit{" "}
         <a
-          target="_blank"
           href="https://support.google.com/adspolicy/answer/6008942?hl=en"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Google Adwords Policy
         </a>
@@ -127,6 +128,7 @@ const PrivacyPolicy = () => {
         <a
           href="https://consumercal.org/about-cfc/cfc-education-foundation/california-online-privacy-protection-act-caloppa-3/#sthash.0FdRbT51.dpuf"
           target="_blank"
+          rel="noopener noreferrer"
         >
           CalOPPA
         </a>{" "}
@@ -181,6 +183,7 @@ const PrivacyPolicy = () => {
         <a
           href="https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/childrens-online-privacy-protection-rule"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Children's Online Privacy Protection Act (COPPA)
         </a>{" "}
@@ -232,6 +235,7 @@ const PrivacyPolicy = () => {
         <a
           href="https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business"
           target="_blank"
+          rel="noopener noreferrer"
         >
           CAN-SPAM Act
         </a>{" "}
@@ -244,7 +248,11 @@ const PrivacyPolicy = () => {
       <p>
         <strong>
           General Data Protection Regulation (
-          <a href="https://gdpr.eu/what-is-gdpr/" target="_blank">
+          <a 
+            href="https://gdpr.eu/what-is-gdpr/" 
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             GDPR
           </a>
           )

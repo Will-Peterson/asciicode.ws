@@ -14,7 +14,10 @@ const Footer = () => {
         <Link to="/">asciicode.ws</Link>
       </div>
       <div>
-        <a href="http://petersondigital.co">PetersonDigital, LLC</a>
+        <a 
+          href="http://petersondigital.co"
+          target="_blank"
+          rel="noopener noreferrer">PetersonDigital, LLC</a>
       </div>
     </div>
   );
