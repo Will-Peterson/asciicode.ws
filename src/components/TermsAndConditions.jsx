@@ -6,7 +6,7 @@ import "../App.css";
 
 const TermsAndConditions = () => {
   return (
-    <div className="container-terms">
+    <div className="ac-container">
       <h2>TERMS AND CONDITIONS</h2>
       <p>
         Please read these Terms and Conditions ("Terms", "Terms and Conditions")

@@ -2,20 +2,51 @@ body {
   background-color: #343a40;
 }
 
-/*  404 page */
-.no-match-container {
+a {
+  text-decoration: none;
+}
+
+h2 {
+  margin-bottom:50px;
+}
+
+.ac-container {
+  background-color: whitesmoke;
+  padding: 5%;
+  border-radius: 5px;
+  margin: 0 10vw;
+}
+
+.navbar--link-color:hover,
+.navbar--link-color:focus {
+  color: khaki !important;
+}
+
+.ac-container .ac-txt--contact {
+  font-size: 1.3vm;
+  margin: -40px auto 30px;
+  background-color: rgb(238, 228, 228);
+  padding: 0.8vw;
+  border-left: 3px solid blue;
+}
+
+.ac-container--no-match {
+  background: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
   position: relative;
   display: block;
 }
 
-.no-match-container:before {
+.ac-container--no-match::before {
   content: '';
   display: block;
   width: 100%;
   padding-bottom: 56.25%;
 }
 
-.no-match-image {
+.ac-container--no-match .ac-img--no-match {
   position: absolute;
   top: 0;
   left: 0;
@@ -23,7 +54,7 @@ body {
   height: 100%;
 }
 
-.oops {
+.ac-container--no-match .ac-txt--no-match {
   position: absolute;
   top: 20%;
   left: 50%;
@@ -33,7 +64,7 @@ body {
   text-align: center;
 }
 
-.home-button {
+.ac-container--no-match .ac-btn--no-match {
   position: absolute;
   top: 35%;
   left: 50%;
@@ -41,59 +72,6 @@ body {
   color: white;
   font-size: 2vw;
   text-align: center;
-}
-
-.link-hover-color:hover,
-.link-hover-color:focus {
-  color: khaki !important;
-}
-
-
-.App {
-  background-color: #f8f9fa;
-}
-
-.container-about {
-	background-color: whitesmoke;
-	padding: 20px;
-  margin: 0 10vw;
-}
-
-.container-contact {
-	background-color: whitesmoke;
-  padding: 5%;
-  border-radius: 5px;
-  margin: 0 10vw;
-}
-
-.container-terms {
-	background-color: whitesmoke;
-	padding: 5%;
-  border-radius: 5px;
-  margin: 0 10vw;
-}
-
-.container-privacy {
-  background-color: whitesmoke;
-  border-radius: 5px;
-  padding: 5%;
-  margin: 0 10vw;
-}
-
-.container-contact h2 {
-  margin-bottom: 50px;
-}
-
-.container-terms h2 {
-  margin-bottom: 50px;
-}
-
-.container-privacy h2 {
-  margin-bottom: 50px;
-}
-
-.perimeter {
-  margin: 0 5%;
 }
 
 .footer {
@@ -106,28 +84,12 @@ body {
 
 .footer a {
 	color: white;
-	text-decoration: none;
 }
 
 .footer a:hover {
 	color: khaki;
-	/* font-weight: bolder; */
 	text-decoration: none;
 }
-
-/* 
-footer light theme
-background-color: #f8f9fa;
-
-footer dark theme
-background-color: #343a40;
-*/
-
-
-/* ascii table */
-.ascii-table {
-  /* width: 100%; */
-} 
 
 table {
   width: 85%;

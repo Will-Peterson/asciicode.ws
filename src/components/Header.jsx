@@ -17,16 +17,16 @@ const Header = () => {
       <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
         <ReactBootStrap.Nav className="mr-auto">
-          {/* <ReactBootStrap.Nav.Link href="about" className='link-hover-color'>
+          {/* <ReactBootStrap.Nav.Link href="about" className='navbar--link-color'>
             About Us
           </ReactBootStrap.Nav.Link> */}
-          <ReactBootStrap.Nav.Link href="contact" className='link-hover-color'>
+          <ReactBootStrap.Nav.Link href="contact" className='navbar--link-color'>
             Contact Us
           </ReactBootStrap.Nav.Link>
-          <ReactBootStrap.Nav.Link href="terms-and-conditions" className='link-hover-color'>
+          <ReactBootStrap.Nav.Link href="terms-and-conditions" className='navbar--link-color'>
             Terms and Conditions
           </ReactBootStrap.Nav.Link>
-          <ReactBootStrap.Nav.Link href="privacy-policy" className='link-hover-color'>
+          <ReactBootStrap.Nav.Link href="privacy-policy" className='navbar--link-color'>
             Privacy Policy
           </ReactBootStrap.Nav.Link>
         </ReactBootStrap.Nav>

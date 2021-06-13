@@ -4,7 +4,7 @@ import "../App.css";
 
 const About = () => {
   return (
-    <div className="container-about">
+    <div className="ac-container">
       <h2>ABOUT</h2>
     </div>
   );

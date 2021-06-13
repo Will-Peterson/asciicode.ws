@@ -6,7 +6,7 @@ import "../App.css";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="container-privacy">
+    <div className="ac-container">
       <h2>PRIVACY POLICY</h2>
       <p>
         This privacy policy has been compiled to better serve those who are
