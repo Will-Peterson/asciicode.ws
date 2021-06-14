@@ -18,16 +18,11 @@ const App = () => {
   return (
     <Container fluid>
       <Header />
-      <CookieConsent 
-        expires={999}
-
-        // for development
-        debug={true}>
-        {/* for development */}
-          
+      <CookieConsent expires={999} > 
         Cookies and other technologies are used on this site to offer users the 
         best experience of relevant content, information, and advertising. See
-        our <Link to='privacy-policy'>privacy policy</Link> for more.</CookieConsent>
+        our <Link to='privacy-policy'>privacy policy</Link> for more.
+      </CookieConsent>
       <Switch>
         <Route exact path='/' component={Home} />
         {/* <Route path='/about' component={About} /> */}
