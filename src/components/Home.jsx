@@ -4,9 +4,9 @@ import AsciiTable from "./AsciiTable";
 
 const Home = () => {
   return (
-    <React.Fragment>
+    <>
       <AsciiTable />
-    </React.Fragment>
+    </>
   );
 };
 
