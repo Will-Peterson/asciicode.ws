@@ -93,7 +93,7 @@ const PrivacyPolicy = () => {
         the Internet. Users may opt-out of the use of the DART cookie by
         visiting the Google Ad and Content Network privacy policy.
       </p>
-      <p>
+      <div>
         <strong>We have implemented the following:</strong>
         <br />
         <ul>
@@ -102,7 +102,7 @@ const PrivacyPolicy = () => {
           <li>Demographics and Interests Reporting</li>
           <li>DoubleClick Platform Integration</li>
         </ul>
-      </p>
+      </div>
       <p>
         We, along with third-party vendors such as Google use first-party
         cookies (such as the Google Analytics cookies) and third-party cookies
@@ -135,7 +135,7 @@ const PrivacyPolicy = () => {
         collected and those individuals or companies with whom it is being
         shared.
       </p>
-      <p>
+      <div>
         <strong>According to CalOPPA, we agree to the following:</strong>
         <ul>
           <li>Users can visit our website anonymously.</li>
@@ -153,7 +153,7 @@ const PrivacyPolicy = () => {
             Policy page.
           </li>
         </ul>
-      </p>
+      </div>
       <p>
         <strong>How does our website handle Do Not Track signals?</strong>
       </p>
@@ -204,11 +204,11 @@ const PrivacyPolicy = () => {
         </strong>
       </p>
       <p>We will notify the users via in-site notification</p>
-      <p>
+      <div>
         <ul>
           <li>Within 1 business day</li>
         </ul>
-      </p>
+      </div>
       <p>
         We also agree to the Individual Redress Principle which requires that
         individuals have the right to legally pursue enforceable rights against
@@ -251,7 +251,7 @@ const PrivacyPolicy = () => {
         Information we collect and the specific context in which we collect the
         information:
       </p>
-      <p>
+      <div>
         <ul>
           <li>Asciicode.ws needs to perform a contract with you</li>
           <li>You have given Asciicode.ws permission to do so</li>
@@ -261,7 +261,7 @@ const PrivacyPolicy = () => {
           </li>
           <li>Asciicode.ws needs to comply with the law</li>
         </ul>
-      </p>
+      </div>
       <p>
         Asciicode.ws will retain your personal information only for as long as
         is necessary for the purposes set out in the Privacy Policy. We will
@@ -275,7 +275,7 @@ const PrivacyPolicy = () => {
       <p>
         In certain circumstances, you have the following data protection rights:
       </p>
-      <p>
+      <div>
         <ul>
           <li>
             The right to access, update, or to delete the information we have on
@@ -287,7 +287,7 @@ const PrivacyPolicy = () => {
           <li>The right to data portability.</li>
           <li>The right to withdraw consent.</li>
         </ul>
-      </p>
+      </div>
       <p>
         <strong>Log files</strong>
       </p>
