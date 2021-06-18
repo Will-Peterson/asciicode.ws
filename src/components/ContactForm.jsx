@@ -13,7 +13,7 @@ const ContactForm = () => {
   return (
     <div>
       <Form onSubmit={handleSubmit}>
-        <Form.Group controlId="contactName">
+        <Form.Group>
           <Form.Label htmlFor="name">Name</Form.Label>
           <Form.Control
             type="text"
@@ -22,7 +22,7 @@ const ContactForm = () => {
             placeholder="Enter name"
           />
         </Form.Group>
-        <Form.Group controlId="contactEmail">
+        <Form.Group>
           <Form.Label htmlFor="email">Email address</Form.Label>
           <Form.Control
             type="text"
@@ -35,7 +35,7 @@ const ContactForm = () => {
             We'll never share your email with anyone else.
           </Form.Text>
         </Form.Group>
-        <Form.Group controlId="contactMessage">
+        <Form.Group>
           <Form.Label htmlFor="message">Message</Form.Label>
           <Form.Control as="textarea" name="message" id="message" rows={3} />
         </Form.Group>
