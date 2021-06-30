@@ -1,6 +1,9 @@
 body {
   background-color: #343a40;
 }
+.CookieConsent a{
+  color: rgb(245, 245, 75);
+}
 
 a {
   text-decoration: none;
